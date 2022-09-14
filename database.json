@@ -1,3533 +1,3532 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Lauren Longfellow",
-            "email": "Lauren@Longfellow.com",
-            "membershipDate": "09-12-2022",
-            "userAddress": "100 Green St",
-            "isAdmin": false       
-        },
-        {
-            "id": 2,
-            "fullName": "Matty Mason",
-            "email": "Matty@Mason.com",
-            "membershipDate": "08-18-2022",
-            "userAddress": "1325 Steekee St",
-            "isAdmin": false
-        },
-        {
-            "id": 3,
-            "fullName": "Peter Pippen",
-            "email": "Peter@Pippen.com",
-            "membershipDate": "08-24-2022",
-            "userAddress": "200 Chahyga Ln",
-            "isAdmin": true
-        },
-        {
-            "id": 4,
-            "fullName": "Brandy Brazen",
-            "email": "Brandy@Brazen.com",
-            "membershipDate": "08-30-2022",
-            "userAddress": "120 Cheeskogili Dr",
-            "isAdmin": false
-        }
-    ],
-    "bookSeriesNames": [
-        {
-            "id": 1,
-            "bookSeries": "The Hardy Boys Mystery Stories"
-        },
-        {
-            "id": 2,
-            "bookSeries": "Nancy Drew Mystery Stories"
-        },
-        {
-            "id": 3,
-            "bookSeries": "The Rick Brant Science-Adventure Series"
-        },
-        {
-            "id": 4,
-            "bookSeries": "The New Tom Swift Jr. Adventures"
-        },
-        {
-            "id": 5,
-            "bookSeries": "The Tom Swift Sr Series"
-        },
-        {
-            "id": 6,
-            "bookSeries": "Judy Bolton Mystery Series"
-        },
-        {
-            "id": 7,
-            "bookSeries": "Clue Book Series"
-        },
-        {
-            "id": 8,
-            "bookSeries": "The Vicki Barr Flight Stewardess Series"
-        },
-        {
-            "id": 9,
-            "bookSeries": "The Ken Holt Series"
-        },
-        {
-            "id": 10,
-            "bookSeries": "The Cherry Ames Series"
-        },
-        {
-            "id": 11,
-            "bookSeries": "The Nurses Three Series"
-        },
-        {
-            "id": 12,
-            "bookSeries": "The Chip Hilton Sports Stories"
-        },
-        {
-            "id": 13,
-            "bookSeries": "The Bronc Burnett Stories"
-        },
-        {
-            "id": 14,
-            "bookSeries": "The Peggy Lane Theater Stories"
-        },{
-            "id": 15,
-            "bookSeries": "The Connie Blair Mystery Stories"
-        },
-        {
-            "id": 16,
-            "bookSeries": "The Bobbsey Twins Series"
-        },
-        {
-            "id": 17,
-            "bookSeries": "Tom Corbett: Space Cadet"
-        },
-        {
-            "id": 18,
-            "bookSeries": "The Lone Ranger Series"
-        },
-        {
-            "id": 19,
-            "bookSeries": "The Robin Kane Mystery Series"
-        },
-        {
-            "id": 20,
-            "bookSeries": "The Dana Girls Mystery Series"
-        },
-        {
-            "id": 21,
-            "bookSeries": "Alfred Hitchcock and the Three Investigators"
-        },
-        {
-            "id": 22,
-            "bookSeries": "The Tom Quest Adventure Series"
-        },
-        {
-            "id": 23,
-            "bookSeries": "Alfred Hitchcock and the Three Investigators"
-        }
-
-    ],
-    "ownedBooks": [
-        {
-            "id": 1,
-            "userId": 1,
-            "bookId": 8,
-            "bookThoughts": "Best of the series!",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 2,
-            "userId": 1,
-            "bookId": 35,
-            "bookThoughts": "Pretty good for a later book in the series.",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "bookId": 135,
-            "bookThoughts": "My first Rick Brant; Quite fun adventure in D.C.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 4,
-            "userId": 1,
-            "bookId": 19,
-            "bookThoughts": "Good mystery, although a little obvious how the floor disappears.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 5,
-            "userId": 1,
-            "bookId": 174,
-            "bookThoughts": "The cover is fantastic!",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 6,
-            "userId": 1,
-            "bookId": 9,
-            "bookThoughts": "Pretty enjoyable.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 7,
-            "userId": 1,
-            "bookId": 1,
-            "bookThoughts": "First adventure of the series.",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 8,
-            "userId": 1,
-            "bookId": 161,
-            "bookThoughts": "Fun romp into sapce.",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 9,
-            "userId": 2,
-            "bookId": 3,
-            "bookThoughts": "Catching counterfeiters!",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 10,
-            "userId": 2,
-            "bookId": 234,
-            "bookThoughts": "A little predictable.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 11,
-            "userId": 2,
-            "bookId": 9,
-            "bookThoughts": "Back when airplanes were new and exciting.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 12,
-            "userId": 2,
-            "bookId": 12,
-            "bookThoughts": "Their father left the footprints; he has small feet....",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 13,
-            "userId": 2,
-            "bookId": 67,
-            "bookThoughts": "Good introduction to Nancy Drew.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 14,
-            "userId": 3,
-            "bookId": 167,
-            "bookThoughts": "Always nice to have a moon adventure.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 15,
-            "userId": 3,
-            "bookId": 37,
-            "bookThoughts": "Not too bad.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 16,
-            "userId": 3,
-            "bookId": 87,
-            "bookThoughts": "Creepy old house story!",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 17,
-            "userId": 3,
-            "bookId": 93,
-            "bookThoughts": "Sailing the seas!",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 18,
-            "userId": 3,
-            "bookId": 141,
-            "bookThoughts": "Quite thrilling.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 19,
-            "userId": 4,
-            "bookId": 20,
-            "bookThoughts": "Train Trip!",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 20,
-            "userId": 4,
-            "bookId": 73,
-            "bookThoughts": "Read this in one sitting.",
-            "dustJacket": true,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 21,
-            "userId": 4,
-            "bookId": 186,
-            "bookThoughts": "Had to force myself to finish this one.",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        },
-        {
-            "id": 22,
-            "userId": 4,
-            "bookId": 102,
-            "bookThoughts": "Kept my attention.",
-            "dustJacket": false,
-            "ableToLoan": false,
-            "isClaimed": false,
-            "bookImage": ""
-        }
-    ],
-    "books": [
-        {
-         "id": 1,
-         "bookSeriesNameId": 1,
-         "bookName": "The Tower Treasure",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1927
-        },
-        {
-         "id": 2,
-         "bookSeriesNameId": 1,
-         "bookName": "The House on the Cliff",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1927
-        },
-        {
-         "id": 3,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of the Old Mill",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1927
-        },
-        {
-         "id": 4,
-         "bookSeriesNameId": 1,
-         "bookName": "The Missing Chums",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1928
-        },
-        {
-         "id": 5,
-         "bookSeriesNameId": 1,
-         "bookName": "Hunting for Hidden Gold",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1928
-        },
-        {
-         "id": 6,
-         "bookSeriesNameId": 1,
-         "bookName": "The Shore Road Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1928
-        },
-        {
-         "id": 7,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of the Caves",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1929
-        },
-        {
-         "id": 8,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery of Cabin Island",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1929
-        },
-        {
-         "id": 9,
-         "bookSeriesNameId": 1,
-         "bookName": "The Great Airport Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1930
-        },
-        {
-         "id": 10,
-         "bookSeriesNameId": 1,
-         "bookName": "What Happened at Midnight",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1931
-        },
-        {
-         "id": 11,
-         "bookSeriesNameId": 1,
-         "bookName": "While the Clock Ticked",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1932
-        },
-        {
-         "id": 12,
-         "bookSeriesNameId": 1,
-         "bookName": "Footprints Under the Window",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1933
-        },
-        {
-         "id": 13,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mark on the Door",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1934
-        },
-        {
-         "id": 14,
-         "bookSeriesNameId": 1,
-         "bookName": "The Hidden Harbor Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1935
-        },
-        {
-         "id": 15,
-         "bookSeriesNameId": 1,
-         "bookName": "The Sinister Sign Post",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1936
-        },
-        {
-         "id": 16,
-         "bookSeriesNameId": 1,
-         "bookName": "A Figure in Hiding",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1937
-        },
-        {
-         "id": 17,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret Warning",
-         "bookAuthor": "John Button",
-         "publicationDate": 1938
-        },
-        {
-         "id": 18,
-         "bookSeriesNameId": 1,
-         "bookName": "The Twisted Claw",
-         "bookAuthor": "John Button",
-         "publicationDate": 1939
-        },
-        {
-         "id": 19,
-         "bookSeriesNameId": 1,
-         "bookName": "The Disappearing Floor",
-         "bookAuthor": "John Button",
-         "publicationDate": 1940
-        },
-        {
-         "id": 20,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery of the Flying Express",
-         "bookAuthor": "John Button",
-         "publicationDate": 1941
-        },
-        {
-         "id": 21,
-         "bookSeriesNameId": 1,
-         "bookName": "The Clue of the Broken Blade",
-         "bookAuthor": "John Button",
-         "publicationDate": 1942
-        },
-        {
-         "id": 22,
-         "bookSeriesNameId": 1,
-         "bookName": "The Flickering Torch Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1943
-        },
-        {
-         "id": 23,
-         "bookSeriesNameId": 1,
-         "bookName": "The Melted Coins",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1944
-        },
-        {
-         "id": 24,
-         "bookSeriesNameId": 1,
-         "bookName": "The Short-Wave Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1945
-        },
-        {
-         "id": 25,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret Panel",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1946
-        },
-        {
-         "id": 26,
-         "bookSeriesNameId": 1,
-         "bookName": "The Phantom Freighter",
-         "bookAuthor": "Amy McFarlane",
-         "publicationDate": 1947
-        },
-        {
-         "id": 27,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of Skull Mountain",
-         "bookAuthor": "George Waller Jr.",
-         "publicationDate": 1948
-        },
-        {
-         "id": 28,
-         "bookSeriesNameId": 1,
-         "bookName": "The Sign of the Crooked Arrow",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1949
-        },
-        {
-         "id": 29,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of the Lost Tunnel",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1950
-        },
-        {
-         "id": 30,
-         "bookSeriesNameId": 1,
-         "bookName": "The Wailing Siren Mystery  ",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1951
-        },
-        {
-         "id": 31,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of Wildcat Swamp",
-         "bookAuthor": "William Dougherty",
-         "publicationDate": 1952
-        },
-        {
-         "id": 32,
-         "bookSeriesNameId": 1,
-         "bookName": "The Crisscross Shadow",
-         "bookAuthor": "Richard Cohen",
-         "publicationDate": 1953
-        },
-        {
-         "id": 33,
-         "bookSeriesNameId": 1,
-         "bookName": "The Yellow Feather Mystery",
-         "bookAuthor": "William Dougherty",
-         "publicationDate": 1953
-        },
-        {
-         "id": 34,
-         "bookSeriesNameId": 1,
-         "bookName": "The Hooded Hawk Mystery",
-         "bookAuthor": "Charles S. Strong",
-         "publicationDate": 1954
-        },
-        {
-         "id": 35,
-         "bookSeriesNameId": 1,
-         "bookName": "The Clue in the Embers",
-         "bookAuthor": "John Almquist",
-         "publicationDate": 1955
-        },
-        {
-         "id": 36,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret of Pirates' Hill",
-         "bookAuthor": "John Almquist",
-         "publicationDate": 1956
-        },
-        {
-         "id": 37,
-         "bookSeriesNameId": 1,
-         "bookName": "The Ghost at Skeleton Rock",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1957
-        },
-        {
-         "id": 38,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery at Devil's Paw",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1959
-        },
-        {
-         "id": 39,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery of the Chinese Junk",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1960
-        },
-        {
-         "id": 40,
-         "bookSeriesNameId": 1,
-         "bookName": "Mystery of the Desert Giant",
-         "bookAuthor": "James Buechler",
-         "publicationDate": 1961
-        },
-        {
-         "id": 41,
-         "bookSeriesNameId": 1,
-         "bookName": "The Clue of the Screeching Owl",
-         "bookAuthor": "James Buechler",
-         "publicationDate": 1962
-        },
-        {
-         "id": 42,
-         "bookSeriesNameId": 1,
-         "bookName": "The Viking Symbol Mystery",
-         "bookAuthor": "Alistair Hunter",
-         "publicationDate": 1963
-        },
-        {
-         "id": 43,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery of the Aztec Warrior",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1964
-        },
-        {
-         "id": 44,
-         "bookSeriesNameId": 1,
-         "bookName": "The Haunted Fort",
-         "bookAuthor": "David Grumbs",
-         "publicationDate": 1965
-        },
-        {
-         "id": 45,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mystery of the Spiral Bridge",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1966
-        },
-        {
-         "id": 46,
-         "bookSeriesNameId": 1,
-         "bookName": "The Secret Agent on Flight 101",
-         "bookAuthor": "Tom Mulvey",
-         "publicationDate": 1967
-        },
-        {
-         "id": 47,
-         "bookSeriesNameId": 1,
-         "bookName": "Mystery of the Whale Tattoo",
-         "bookAuthor": "Jerrold Mundis",
-         "publicationDate": 1968
-        },
-        {
-         "id": 48,
-         "bookSeriesNameId": 1,
-         "bookName": "The Arctic Patrol Mystery",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1969
-        },
-        {
-         "id": 49,
-         "bookSeriesNameId": 1,
-         "bookName": "The Bombay Boomerang",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1970
-        },
-        {
-         "id": 50,
-         "bookSeriesNameId": 1,
-         "bookName": "Danger on Vampire Trail",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1971
-        },
-        {
-         "id": 51,
-         "bookSeriesNameId": 1,
-         "bookName": "The Masked Monkey",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1972
-        },
-        {
-         "id": 52,
-         "bookSeriesNameId": 1,
-         "bookName": "The Shattered Helmet",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1973
-        },
-        {
-         "id": 53,
-         "bookSeriesNameId": 1,
-         "bookName": "The Clue of the Hissing Serpent",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1974
-        },
-        {
-         "id": 54,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mysterious Caravan",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1975
-        },
-        {
-         "id": 55,
-         "bookSeriesNameId": 1,
-         "bookName": "The Witchmaster's Key",
-         "bookAuthor": "Andrew Svenson",
-         "publicationDate": 1976
-        },
-        {
-         "id": 56,
-         "bookSeriesNameId": 1,
-         "bookName": "The Jungle Pyramid",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1977
-        },
-        {
-         "id": 57,
-         "bookSeriesNameId": 1,
-         "bookName": "The Firebird Rocket",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1978
-        },
-        {
-         "id": 58,
-         "bookSeriesNameId": 1,
-         "bookName": "The Sting of the Scorpion",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1979
-        },
-        {
-         "id": 59,
-         "bookSeriesNameId": 1,
-         "bookName": "Night of the Werewolf",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1979
-        },
-        {
-         "id": 60,
-         "bookSeriesNameId": 1,
-         "bookName": "Mystery of the Samurai Sword",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1979
-        },
-        {
-         "id": 61,
-         "bookSeriesNameId": 1,
-         "bookName": "The Pentagon Spy",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1980
-        },
-        {
-         "id": 62,
-         "bookSeriesNameId": 1,
-         "bookName": "The Apeman's Secret",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1980
-        },
-        {
-         "id": 63,
-         "bookSeriesNameId": 1,
-         "bookName": "The Mummy Case",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1980
-        },
-        {
-         "id": 64,
-         "bookSeriesNameId": 1,
-         "bookName": "Mystery of Smugglers Cove",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1980
-        },
-        {
-         "id": 65,
-         "bookSeriesNameId": 1,
-         "bookName": "The Stone Idol",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1981
-        },
-        {
-         "id": 66,
-         "bookSeriesNameId": 1,
-         "bookName": "The Vanishing Thieves",
-         "bookAuthor": "Richard Deming",
-         "publicationDate": 1981
-        },
-        {
-         "id": 67,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of the Old Clock",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1930
-        },
-        {
-         "id": 68,
-         "bookSeriesNameId": 2,
-         "bookName": "The Hidden Staircase",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1930
-        },
-        {
-         "id": 69,
-         "bookSeriesNameId": 2,
-         "bookName": "The Bungalow Mystery",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1930
-        },
-        {
-         "id": 70,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery at Lilac Inn",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1930
-        },
-        {
-         "id": 71,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret at Shadow Ranch",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1931
-        },
-        {
-         "id": 72,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of Red Gate Farm",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1931
-        },
-        {
-         "id": 73,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Diary",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1932
-        },
-        {
-         "id": 74,
-         "bookSeriesNameId": 2,
-         "bookName": "Nancy's Mysterious Letter",
-         "bookAuthor": "Walter Karig",
-         "publicationDate": 1932
-        },
-        {
-         "id": 75,
-         "bookSeriesNameId": 2,
-         "bookName": "The Sign of the Twisted Candles",
-         "bookAuthor": "Walter Karig",
-         "publicationDate": 1933
-        },
-        {
-         "id": 76,
-         "bookSeriesNameId": 2,
-         "bookName": "The Password to Larkspur Lane",
-         "bookAuthor": "Walter Karig",
-         "publicationDate": 1933
-        },
-        {
-         "id": 77,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Broken Locket",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1934
-        },
-        {
-         "id": 78,
-         "bookSeriesNameId": 2,
-         "bookName": "The Message in the Hollow Oak",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1935
-        },
-        {
-         "id": 79,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery of the Ivory Charm",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1936
-        },
-        {
-         "id": 80,
-         "bookSeriesNameId": 2,
-         "bookName": "The Whispering Statue",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1937
-        },
-        {
-         "id": 81,
-         "bookSeriesNameId": 2,
-         "bookName": "The Haunted Bridge",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1937
-        },
-        {
-         "id": 82,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Tapping Heels",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1939
-        },
-        {
-         "id": 83,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery of the Brass-Bound Trunk",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1940
-        },
-        {
-         "id": 84,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery at the Moss-Covered Mansion",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1941
-        },
-        {
-         "id": 85,
-         "bookSeriesNameId": 2,
-         "bookName": "The Quest of the Missing Map",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1942
-        },
-        {
-         "id": 86,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Jewel Box",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1943
-        },
-        {
-         "id": 87,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret in the Old Attic",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1944
-        },
-        {
-         "id": 88,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Crumbling Wall",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1945
-        },
-        {
-         "id": 89,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery of the Tolling Bell",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1946
-        },
-        {
-         "id": 90,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Old Album",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1947
-        },
-        {
-         "id": 91,
-         "bookSeriesNameId": 2,
-         "bookName": "The Ghost of Blackwood Hall",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1948
-        },
-        {
-         "id": 92,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Leaning Chimney",
-         "bookAuthor": "George Waller Jr.",
-         "publicationDate": 1949
-        },
-        {
-         "id": 93,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of the Wooden Lady",
-         "bookAuthor": "Margaret Scherf",
-         "publicationDate": 1950
-        },
-        {
-         "id": 94,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Black Keys",
-         "bookAuthor": "Wilhelmina Rankin",
-         "publicationDate": 1951
-        },
-        {
-         "id": 95,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery at the Ski Jump",
-         "bookAuthor": "Alma Sasse",
-         "publicationDate": 1952
-        },
-        {
-         "id": 96,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Velvet Mask",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1953
-        },
-        {
-         "id": 97,
-         "bookSeriesNameId": 2,
-         "bookName": "The Ringmaster's Secret",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1953
-        },
-        {
-         "id": 98,
-         "bookSeriesNameId": 2,
-         "bookName": "The Scarlet Slipper Mystery",
-         "bookAuthor": "Charles S. Strong",
-         "publicationDate": 1954
-        },
-        {
-         "id": 99,
-         "bookSeriesNameId": 2,
-         "bookName": "The Witch Tree Symbol",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1955
-        },
-        {
-         "id": 100,
-         "bookSeriesNameId": 2,
-         "bookName": "The Hidden Window Mystery",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1956
-        },
-        {
-         "id": 101,
-         "bookSeriesNameId": 2,
-         "bookName": "The Haunted Showboat",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1957
-        },
-        {
-         "id": 102,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of the Golden Paviliion",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1959
-        },
-        {
-         "id": 103,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Old Stagecoach",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1960
-        },
-        {
-         "id": 104,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery of the Fire Dragon",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1961
-        },
-        {
-         "id": 105,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Dancing Puppet",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1962
-        },
-        {
-         "id": 106,
-         "bookSeriesNameId": 2,
-         "bookName": "The Moonstone Castle Mystery",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1963
-        },
-        {
-         "id": 107,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue of the Whistling Bagpipes",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1964
-        },
-        {
-         "id": 108,
-         "bookSeriesNameId": 2,
-         "bookName": "The Phantom of Pine Hill",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1965
-        },
-        {
-         "id": 109,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mystery of the 99 Steps",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1966
-        },
-        {
-         "id": 110,
-         "bookSeriesNameId": 2,
-         "bookName": "The Clue in the Crossword Cipher",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1967
-        },
-        {
-         "id": 111,
-         "bookSeriesNameId": 2,
-         "bookName": "The Spider Sapphire Mystery",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1968
-        },
-        {
-         "id": 112,
-         "bookSeriesNameId": 2,
-         "bookName": "The Invisible Intruder",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1969
-        },
-        {
-         "id": 113,
-         "bookSeriesNameId": 2,
-         "bookName": "The Mysterioius Mannequin",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1970
-        },
-        {
-         "id": 114,
-         "bookSeriesNameId": 2,
-         "bookName": "The Crooked Banister",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1971
-        },
-        {
-         "id": 115,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of Mirror Bay",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1972
-        },
-        {
-         "id": 116,
-         "bookSeriesNameId": 2,
-         "bookName": "The Double Jinx Mystery",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1973
-        },
-        {
-         "id": 117,
-         "bookSeriesNameId": 2,
-         "bookName": "Mystery of the Glowing Eye",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1974
-        },
-        {
-         "id": 118,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret of the Forgotten City",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1975
-        },
-        {
-         "id": 119,
-         "bookSeriesNameId": 2,
-         "bookName": "The Sky Phantom",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1976
-        },
-        {
-         "id": 120,
-         "bookSeriesNameId": 2,
-         "bookName": "The Strange Message in the Parchment",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1977
-        },
-        {
-         "id": 121,
-         "bookSeriesNameId": 2,
-         "bookName": "Mystery of Crocodile Island",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1978
-        },
-        {
-         "id": 122,
-         "bookSeriesNameId": 2,
-         "bookName": "The Thirteenth Pearl",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1979
-        },
-        {
-         "id": 123,
-         "bookSeriesNameId": 2,
-         "bookName": "The Triple Hoax",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1979
-        },
-        {
-         "id": 124,
-         "bookSeriesNameId": 2,
-         "bookName": "The Flying Saucer Mystery",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1980
-        },
-        {
-         "id": 125,
-         "bookSeriesNameId": 2,
-         "bookName": "The Secret in the Old Lace",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1980
-        },
-        {
-         "id": 126,
-         "bookSeriesNameId": 2,
-         "bookName": "The Greek Symbol Mystery",
-         "bookAuthor": "Nancy Axelrad",
-         "publicationDate": 1980
-        },
-        {
-         "id": 127,
-         "bookSeriesNameId": 2,
-         "bookName": "The Swami's Ring",
-         "bookAuthor": "Nancy Axelrad",
-         "publicationDate": 1981
-        },
-        {
-         "id": 128,
-         "bookSeriesNameId": 2,
-         "bookName": "The Kachina Doll Mystery",
-         "bookAuthor": "Sharon Wagner",
-         "publicationDate": 1981
-        },
-        {
-         "id": 129,
-         "bookSeriesNameId": 2,
-         "bookName": "The Twin Dilemma",
-         "bookAuthor": "Nancy Axelrad",
-         "publicationDate": 1981
-        },
-        {
-         "id": 130,
-         "bookSeriesNameId": 2,
-         "bookName": "Captive Witness",
-         "bookAuthor": "Richard Ballad",
-         "publicationDate": 1981
-        },
-        {
-         "id": 131,
-         "bookSeriesNameId": 3,
-         "bookName": "The Rocket's Shadow",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1947
-        },
-        {
-         "id": 132,
-         "bookSeriesNameId": 3,
-         "bookName": "The Lost City",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1947
-        },
-        {
-         "id": 133,
-         "bookSeriesNameId": 3,
-         "bookName": "Sea Gold",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1947
-        },
-        {
-         "id": 134,
-         "bookSeriesNameId": 3,
-         "bookName": "100 Fathoms Under",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1947
-        },
-        {
-         "id": 135,
-         "bookSeriesNameId": 3,
-         "bookName": "The Whispering Box Mystery",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1948
-        },
-        {
-         "id": 136,
-         "bookSeriesNameId": 3,
-         "bookName": "The Phantom Shark",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1949
-        },
-        {
-         "id": 137,
-         "bookSeriesNameId": 3,
-         "bookName": "Smugglers' Reef",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1950
-        },
-        {
-         "id": 138,
-         "bookSeriesNameId": 3,
-         "bookName": "The Caves of Fear",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1951
-        },
-        {
-         "id": 139,
-         "bookSeriesNameId": 3,
-         "bookName": "Stairway to Danger",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1952
-        },
-        {
-         "id": 140,
-         "bookSeriesNameId": 3,
-         "bookName": "The Golden Skull",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1954
-        },
-        {
-         "id": 141,
-         "bookSeriesNameId": 3,
-         "bookName": "The Wailing Octopus",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1956
-        },
-        {
-         "id": 142,
-         "bookSeriesNameId": 3,
-         "bookName": "The Electronic Mind Reader",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1957
-        },
-        {
-         "id": 143,
-         "bookSeriesNameId": 3,
-         "bookName": "The Scarlet Lake Mystery",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1958
-        },
-        {
-         "id": 144,
-         "bookSeriesNameId": 3,
-         "bookName": "The Pirates of Shan",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1958
-        },
-        {
-         "id": 145,
-         "bookSeriesNameId": 3,
-         "bookName": "The Blue Ghost Mystery",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1960
-        },
-        {
-         "id": 146,
-         "bookSeriesNameId": 3,
-         "bookName": "The Egyptian Cat Mystery",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1961
-        },
-        {
-         "id": 147,
-         "bookSeriesNameId": 3,
-         "bookName": "The Flaming Mountain",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1962
-        },
-        {
-         "id": 148,
-         "bookSeriesNameId": 3,
-         "bookName": "The Flying Stingaree",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1963
-        },
-        {
-         "id": 149,
-         "bookSeriesNameId": 3,
-         "bookName": "The Ruby Ray Mystery",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1964
-        },
-        {
-         "id": 150,
-         "bookSeriesNameId": 3,
-         "bookName": "The Veiled Raiders",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1965
-        },
-        {
-         "id": 151,
-         "bookSeriesNameId": 3,
-         "bookName": "Rocket Jumper",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1966
-        },
-        {
-         "id": 152,
-         "bookSeriesNameId": 3,
-         "bookName": "The Deadly Dutchman",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1967
-        },
-        {
-         "id": 153,
-         "bookSeriesNameId": 3,
-         "bookName": "Danger Below!",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1968
-        },
-        {
-         "id": 154,
-         "bookSeriesNameId": 3,
-         "bookName": "The Magic Talisman",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1990
-        },
-        {
-         "id": 155,
-         "bookSeriesNameId": 3,
-         "bookName": "Rick Brant's Science Projects",
-         "bookAuthor": "Harold L. Goodwin",
-         "publicationDate": 1960
-        },
-        {
-         "id": 156,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Flying Lab",
-         "bookAuthor": "William Dougherty",
-         "publicationDate": 1954
-        },
-        {
-         "id": 157,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Jetmarine",
-         "bookAuthor": "John Almquist",
-         "publicationDate": 1954
-        },
-        {
-         "id": 158,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Rocket Ship",
-         "bookAuthor": "John Almquist",
-         "publicationDate": 1954
-        },
-        {
-         "id": 159,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Giant Robot",
-         "bookAuthor": "Richard Sklar",
-         "publicationDate": 1954
-        },
-        {
-         "id": 160,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Atomic Earth Blaster",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1954
-        },
-        {
-         "id": 161,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Outpost in Space",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1955
-        },
-        {
-         "id": 162,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Diving Seacopter",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1956
-        },
-        {
-         "id": 163,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift in the Caves of Nuclear Fire",
-         "bookAuthor": "Thomas Mulvey",
-         "publicationDate": 1956
-        },
-        {
-         "id": 164,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift on the Phantom Satellite",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1956
-        },
-        {
-         "id": 165,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Ultrasonic Cycloplane",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1957
-        },
-        {
-         "id": 166,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Deep-Sea Hydrodome",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1958
-        },
-        {
-         "id": 167,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift in the Race to the Moon",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1958
-        },
-        {
-         "id": 168,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Space Solartron",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1958
-        },
-        {
-         "id": 169,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Electronic Rotoscope",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1959
-        },
-        {
-         "id": 170,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Spectromarine Selector",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1960
-        },
-        {
-         "id": 171,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Cosmic Astronauts",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1960
-        },
-        {
-         "id": 172,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Visitor from Planet X",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1961
-        },
-        {
-         "id": 173,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Electronic Hydrolung",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1961
-        },
-        {
-         "id": 174,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Triphibian Atomicar",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1962
-        },
-        {
-         "id": 175,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Megascope Space Prober",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1962
-        },
-        {
-         "id": 176,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Asteroid Pirates",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1963
-        },
-        {
-         "id": 177,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Repelatron Skyway",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1963
-        },
-        {
-         "id": 178,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Aquatomic Tracker",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1964
-        },
-        {
-         "id": 179,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His 3-D Telejector",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1964
-        },
-        {
-         "id": 180,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Polar-Ray Dynasphere",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1965
-        },
-        {
-         "id": 181,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Sonic Boom Trap",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1965
-        },
-        {
-         "id": 182,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Subocean Geotron",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1966
-        },
-        {
-         "id": 183,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Mystery Comet",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1966
-        },
-        {
-         "id": 184,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Captive Planetoid",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1967
-        },
-        {
-         "id": 185,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His G-Force Inverter",
-         "bookAuthor": "Thomas Mulvey",
-         "publicationDate": 1968
-        },
-        {
-         "id": 186,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Dyna-4 Capsule",
-         "bookAuthor": "Richard McKenna",
-         "publicationDate": 1969
-        },
-        {
-         "id": 187,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and His Cosmotron Express",
-         "bookAuthor": "Richard McKenna",
-         "publicationDate": 1970
-        },
-        {
-         "id": 188,
-         "bookSeriesNameId": 4,
-         "bookName": "Tom Swift and the Galaxy Ghosts",
-         "bookAuthor": "Vincent Buranelli",
-         "publicationDate": 1971
-        },
-        {
-         "id": 189,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Motorcycle",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1910
-        },
-        {
-         "id": 190,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Motor Boat",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1910
-        },
-        {
-         "id": 191,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Airship",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1910
-        },
-        {
-         "id": 192,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Submarine Boat",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1910
-        },
-        {
-         "id": 193,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Electric Runabout",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1910
-        },
-        {
-         "id": 194,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Wireless Message",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1911
-        },
-        {
-         "id": 195,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift Among the Diamond Makers",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1911
-        },
-        {
-         "id": 196,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift in the Caves of Ice",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1911
-        },
-        {
-         "id": 197,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Sky Racer",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1911
-        },
-        {
-         "id": 198,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Electric Rifle",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1911
-        },
-        {
-         "id": 199,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift in the City of Gold",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1912
-        },
-        {
-         "id": 200,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Air Glider",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1912
-        },
-        {
-         "id": 201,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift in Captivity",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1912
-        },
-        {
-         "id": 202,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Wizard Camera",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1912
-        },
-        {
-         "id": 203,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Great Searchlight",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1912
-        },
-        {
-         "id": 204,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Giant Cannon",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1913
-        },
-        {
-         "id": 205,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Photo Telephone",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1914
-        },
-        {
-         "id": 206,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Aerial Warship",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1915
-        },
-        {
-         "id": 207,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Big Tunnel",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1916
-        },
-        {
-         "id": 208,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift in the Land of the Wonders",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1917
-        },
-        {
-         "id": 209,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His War Tank ",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1918
-        },
-        {
-         "id": 210,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Air Scout",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1919
-        },
-        {
-         "id": 211,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Undersea Search",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1920
-        },
-        {
-         "id": 212,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift Among the Fire Fighters",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1921
-        },
-        {
-         "id": 213,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Electric Locomotive",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1922
-        },
-        {
-         "id": 214,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Flying Boat",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1923
-        },
-        {
-         "id": 215,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Great Oil Gusher",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1924
-        },
-        {
-         "id": 216,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Chest of Secrets",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1925
-        },
-        {
-         "id": 217,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Airline Express",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1926
-        },
-        {
-         "id": 218,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift Circling the Globe",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1927
-        },
-        {
-         "id": 219,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Talking Pictures",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1928
-        },
-        {
-         "id": 220,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and House on Wheels",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1929
-        },
-        {
-         "id": 221,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Big Dirigible",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1930
-        },
-        {
-         "id": 222,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Sky Train",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1931
-        },
-        {
-         "id": 223,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Giant Magnet",
-         "bookAuthor": "Howard Garis",
-         "publicationDate": 1932
-        },
-        {
-         "id": 224,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Television Detector",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1933
-        },
-        {
-         "id": 225,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Ocean Airport",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1934
-        },
-        {
-         "id": 226,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Planet Stone",
-         "bookAuthor": "Harriet Stratemeyer Adams",
-         "publicationDate": 1935
-        },
-        {
-         "id": 227,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Giant Telescope",
-         "bookAuthor": "Thomas Moyston Mitchell",
-         "publicationDate": 1939
-        },
-        {
-         "id": 228,
-         "bookSeriesNameId": 5,
-         "bookName": "Tom Swift and His Magnetic Silencer",
-         "bookAuthor": "Thomas Moyston Mitchell",
-         "publicationDate": 1941
-        },
-        {
-         "id": 229,
-         "bookSeriesNameId": 6,
-         "bookName": "The Vanishing Shadow",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1932
-        },
-        {
-         "id": 230,
-         "bookSeriesNameId": 6,
-         "bookName": "The Haunted Attic",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1932
-        },
-        {
-         "id": 231,
-         "bookSeriesNameId": 6,
-         "bookName": "The Invisible Chimes",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1932
-        },
-        {
-         "id": 232,
-         "bookSeriesNameId": 6,
-         "bookName": "The Talking Snowman",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1997
-        },
-        {
-         "id": 233,
-         "bookSeriesNameId": 6,
-         "bookName": "Seven Strange Clues",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1932
-        },
-        {
-         "id": 234,
-         "bookSeriesNameId": 6,
-         "bookName": "The Ghost Parade",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1933
-        },
-        {
-         "id": 235,
-         "bookSeriesNameId": 6,
-         "bookName": "The Yellow Phantom",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1933
-        },
-        {
-         "id": 236,
-         "bookSeriesNameId": 6,
-         "bookName": "The Mystic Ball",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1934
-        },
-        {
-         "id": 237,
-         "bookSeriesNameId": 6,
-         "bookName": "The Voice in the Suitcase",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1935
-        },
-        {
-         "id": 238,
-         "bookSeriesNameId": 6,
-         "bookName": "The Mysterious Half Cat",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1936
-        },
-        {
-         "id": 239,
-         "bookSeriesNameId": 6,
-         "bookName": "The Riddle of the Double Ring",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1937
-        },
-        {
-         "id": 240,
-         "bookSeriesNameId": 6,
-         "bookName": "The Unfinished House",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1938
-        },
-        {
-         "id": 241,
-         "bookSeriesNameId": 6,
-         "bookName": "The Midnight Visitor",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1939
-        },
-        {
-         "id": 242,
-         "bookSeriesNameId": 6,
-         "bookName": "The Name on the Bracelet",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1940
-        },
-        {
-         "id": 243,
-         "bookSeriesNameId": 6,
-         "bookName": "The Clue in the Patchwork Quilt",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1941
-        },
-        {
-         "id": 244,
-         "bookSeriesNameId": 6,
-         "bookName": "The Mark on the Mirror",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1942
-        },
-        {
-         "id": 245,
-         "bookSeriesNameId": 6,
-         "bookName": "The Secret of the Barred WIndow",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1943
-        },
-        {
-         "id": 246,
-         "bookSeriesNameId": 6,
-         "bookName": "The Rainbow Riddle",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1946
-        },
-        {
-         "id": 247,
-         "bookSeriesNameId": 6,
-         "bookName": "The Living Portrait",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1947
-        },
-        {
-         "id": 248,
-         "bookSeriesNameId": 6,
-         "bookName": "The Secret of the Musical Tree",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1948
-        },
-        {
-         "id": 249,
-         "bookSeriesNameId": 6,
-         "bookName": "The Warning on the Window",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1949
-        },
-        {
-         "id": 250,
-         "bookSeriesNameId": 6,
-         "bookName": "The Clue of the Stone Lantern",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1950
-        },
-        {
-         "id": 251,
-         "bookSeriesNameId": 6,
-         "bookName": "The Spirit of Fog Island",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1951
-        },
-        {
-         "id": 252,
-         "bookSeriesNameId": 6,
-         "bookName": "The Black Cat's Clue",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1952
-        },
-        {
-         "id": 253,
-         "bookSeriesNameId": 6,
-         "bookName": "The Forbidden Chest",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1953
-        },
-        {
-         "id": 254,
-         "bookSeriesNameId": 6,
-         "bookName": "The Haunted Road",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1954
-        },
-        {
-         "id": 255,
-         "bookSeriesNameId": 6,
-         "bookName": "The Clue in the Ruined Castle",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1955
-        },
-        {
-         "id": 256,
-         "bookSeriesNameId": 6,
-         "bookName": "The Trail of the Green Doll",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1956
-        },
-        {
-         "id": 257,
-         "bookSeriesNameId": 6,
-         "bookName": "The Haunted Fountain",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1957
-        },
-        {
-         "id": 258,
-         "bookSeriesNameId": 6,
-         "bookName": "The Clue of the Broken Wing",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1958
-        },
-        {
-         "id": 259,
-         "bookSeriesNameId": 6,
-         "bookName": "The Phantom Friend",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1959
-        },
-        {
-         "id": 260,
-         "bookSeriesNameId": 6,
-         "bookName": "The Discovery at the Dragon's Mouth",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1960
-        },
-        {
-         "id": 261,
-         "bookSeriesNameId": 6,
-         "bookName": "The Whispered Watchword",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1961
-        },
-        {
-         "id": 262,
-         "bookSeriesNameId": 6,
-         "bookName": "The Secret Quest",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1962
-        },
-        {
-         "id": 263,
-         "bookSeriesNameId": 6,
-         "bookName": "The Puzzle in the Pond",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1963
-        },
-        {
-         "id": 264,
-         "bookSeriesNameId": 6,
-         "bookName": "The Hidden Clue",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1964
-        },
-        {
-         "id": 265,
-         "bookSeriesNameId": 6,
-         "bookName": "The Pledge of the Twin Knights",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1965
-        },
-        {
-         "id": 266,
-         "bookSeriesNameId": 6,
-         "bookName": "The Search for the Glowing Hand",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1966
-        },
-        {
-         "id": 267,
-         "bookSeriesNameId": 6,
-         "bookName": "The Secret at the Sand Castle",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 1967
-        },
-        {
-         "id": 268,
-         "bookSeriesNameId": 6,
-         "bookName": "The Strange Likeness",
-         "bookAuthor": "Margaret Sutton",
-         "publicationDate": 2012
-        },
-        {
-         "id": 269,
-         "bookSeriesNameId": 7,
-         "bookName": "Who Killed Mr. Boddy?",
-         "bookAuthor": "Eric Weiner",
-         "publicationDate": 1992
-        },
-        {
-         "id": 270,
-         "bookSeriesNameId": 7,
-         "bookName": "The Secret Secret Passage",
-         "bookAuthor": "Eric Weiner",
-         "publicationDate": 1992
-        },
-        {
-         "id": 271,
-         "bookSeriesNameId": 7,
-         "bookName": "The Case of the Invisible Cat",
-         "bookAuthor": "Eric Weiner",
-         "publicationDate": 1992
-        },
-        {
-         "id": 272,
-         "bookSeriesNameId": 7,
-         "bookName": "Mystery at the Masked Ball",
-         "bookAuthor": "Eric Weiner",
-         "publicationDate": 1993
-        },
-        {
-         "id": 273,
-         "bookSeriesNameId": 7,
-         "bookName": "Midnight Phone Calls",
-         "bookAuthor": "Eric Weiner",
-         "publicationDate": 1994
-        },
-        {
-         "id": 274,
-         "bookSeriesNameId": 7,
-         "bookName": "Booby-Trapped",
-         "bookAuthor": "Jahnna N. Malcolm",
-         "publicationDate": 1994
-        },
-        {
-         "id": 275,
-         "bookSeriesNameId": 7,
-         "bookName": "The Picture-Perfect Crime",
-         "bookAuthor": "Jahnna N. Malcolm",
-         "publicationDate": 1994
-        },
-        {
-         "id": 276,
-         "bookSeriesNameId": 7,
-         "bookName": "The Clue in the Shadows",
-         "bookAuthor": "Jahnna N. Malcolm",
-         "publicationDate": 1995
-        },
-        {
-         "id": 277,
-         "bookSeriesNameId": 7,
-         "bookName": "Mystery in the Moonlight",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1995
-        },
-        {
-         "id": 278,
-         "bookSeriesNameId": 7,
-         "bookName": "The Screaming Skeleton",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1995
-        },
-        {
-         "id": 279,
-         "bookSeriesNameId": 7,
-         "bookName": "Death by Candlelight",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 195
-        },
-        {
-         "id": 280,
-         "bookSeriesNameId": 7,
-         "bookName": "The Haunted Gargoyle",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1996
-        },
-        {
-         "id": 281,
-         "bookSeriesNameId": 7,
-         "bookName": "The Revenge of the Mummy",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1996
-        },
-        {
-         "id": 282,
-         "bookSeriesNameId": 7,
-         "bookName": "The Dangerous Diamond",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1996
-        },
-        {
-         "id": 283,
-         "bookSeriesNameId": 7,
-         "bookName": "The Vanishing Vampire",
-         "bookAuthor": "Marie Jacks",
-         "publicationDate": 1996
-        },
-        {
-         "id": 284,
-         "bookSeriesNameId": 7,
-         "bookName": "The Clue in the Crystal Ball",
-         "bookAuthor": "Dona Smith",
-         "publicationDate": 1997
-        },
-        {
-         "id": 285,
-         "bookSeriesNameId": 7,
-         "bookName": "Footprints in the Fog",
-         "bookAuthor": "Dona Smith",
-         "publicationDate": 1997
-        },
-        {
-         "id": 286,
-         "bookSeriesNameId": 8,
-         "bookName": "Silver Wings for Vicki",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1947
-        },
-        {
-         "id": 287,
-         "bookSeriesNameId": 8,
-         "bookName": "Vicki Finds the Answer",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1947
-        },
-        {
-         "id": 288,
-         "bookSeriesNameId": 8,
-         "bookName": "The Hidden Valley Mystery",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1948
-        },
-        {
-         "id": 289,
-         "bookSeriesNameId": 8,
-         "bookName": "The Secret of Magnolia Manor",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1949
-        },
-        {
-         "id": 290,
-         "bookSeriesNameId": 8,
-         "bookName": "The Clue of the Broken Blossom",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1950
-        },
-        {
-         "id": 291,
-         "bookSeriesNameId": 8,
-         "bookName": "Behind the White Veil",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1951
-        },
-        {
-         "id": 292,
-         "bookSeriesNameId": 8,
-         "bookName": "The Mystery at Hartwood House",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1952
-        },
-        {
-         "id": 293,
-         "bookSeriesNameId": 8,
-         "bookName": "Peril Over the Airport",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1953
-        },
-        {
-         "id": 294,
-         "bookSeriesNameId": 8,
-         "bookName": "The Mystery of the Vanishing Lady",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1954
-        },
-        {
-         "id": 295,
-         "bookSeriesNameId": 8,
-         "bookName": "The Search for the Missing Twin",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1954
-        },
-        {
-         "id": 296,
-         "bookSeriesNameId": 8,
-         "bookName": "The Ghost at the Waterfall",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1956
-        },
-        {
-         "id": 297,
-         "bookSeriesNameId": 8,
-         "bookName": "The Clue of the Gold Coin",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1958
-        },
-        {
-         "id": 298,
-         "bookSeriesNameId": 8,
-         "bookName": "The Silver Ring Mystery",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1960
-        },
-        {
-         "id": 299,
-         "bookSeriesNameId": 8,
-         "bookName": "The Clue of the Carved Ruby",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1961
-        },
-        {
-         "id": 300,
-         "bookSeriesNameId": 8,
-         "bookName": "The Mystery of Flight 908",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1962
-        },
-        {
-         "id": 301,
-         "bookSeriesNameId": 8,
-         "bookName": "The Brass Idol Mystery",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1964
-        },
-        {
-         "id": 302,
-         "bookSeriesNameId": 9,
-         "bookName": "The Secret of Skeleton Island",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1949
-        },
-        {
-         "id": 303,
-         "bookSeriesNameId": 9,
-         "bookName": "The Riddle of the Stone Elephant",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1949
-        },
-        {
-         "id": 304,
-         "bookSeriesNameId": 9,
-         "bookName": "The Black Thumb Mystery",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1950
-        },
-        {
-         "id": 305,
-         "bookSeriesNameId": 9,
-         "bookName": "The Clue of the Marked Claw",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1950
-        },
-        {
-         "id": 306,
-         "bookSeriesNameId": 9,
-         "bookName": "The Clue of the Coiled Cobra",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1951
-        },
-        {
-         "id": 307,
-         "bookSeriesNameId": 9,
-         "bookName": "The Secret of Hangman's Inn",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1951
-        },
-        {
-         "id": 308,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Iron Box",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1952
-        },
-        {
-         "id": 309,
-         "bookSeriesNameId": 9,
-         "bookName": "The Clue of the Phantom Car",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1953
-        },
-        {
-         "id": 310,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Galloping Horse",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1954
-        },
-        {
-         "id": 311,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Green Flame",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1955
-        },
-        {
-         "id": 312,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Grinning Tiger",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1956
-        },
-        {
-         "id": 313,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Vanishing Magician",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1956
-        },
-        {
-         "id": 314,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Shattered Glass",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1958
-        },
-        {
-         "id": 315,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Invisible Enemy",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1959
-        },
-        {
-         "id": 316,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of Gallows Cliff",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1960
-        },
-        {
-         "id": 317,
-         "bookSeriesNameId": 9,
-         "bookName": "The Clue of the Silver Scorpion",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1961
-        },
-        {
-         "id": 318,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Plumed Servent",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1962
-        },
-        {
-         "id": 319,
-         "bookSeriesNameId": 9,
-         "bookName": "The Mystery of the Sultan's Scimitar",
-         "bookAuthor": "Sam Epstein",
-         "publicationDate": 1963
-        },
-        {
-         "id": 320,
-         "bookSeriesNameId": 10,
-         "bookName": "Senior Nurse",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1944
-        },
-        {
-         "id": 321,
-         "bookSeriesNameId": 10,
-         "bookName": "Private Duty Nurse",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1946
-        },
-        {
-         "id": 322,
-         "bookSeriesNameId": 10,
-         "bookName": "Mountaineer Nurse",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1951
-        },
-        {
-         "id": 323,
-         "bookSeriesNameId": 10,
-         "bookName": "Visiting Nurse",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1947
-        },
-        {
-         "id": 324,
-         "bookSeriesNameId": 10,
-         "bookName": "Night Supervisor",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1950
-        },
-        {
-         "id": 325,
-         "bookSeriesNameId": 10,
-         "bookName": "Cruise Nurse",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1948
-        },
-        {
-         "id": 326,
-         "bookSeriesNameId": 10,
-         "bookName": "Army Nurse",
-         "bookAuthor": "Helen Wells",
-         "publicationDate": 1944
-        },
-        {
-         "id": 327,
-         "bookSeriesNameId": 10,
-         "bookName": "Country Doctor's Nurse",
-         "bookAuthor": "Julie Campbell Tatham",
-         "publicationDate": 1955
-        },
-        {
-         "id": 328,
-         "bookSeriesNameId": 11,
-         "bookName": "A Career for Kelly",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1963
-        },
-        {
-         "id": 329,
-         "bookSeriesNameId": 11,
-         "bookName": "First Assignment",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1963
-        },
-        {
-         "id": 330,
-         "bookSeriesNameId": 11,
-         "bookName": "A Very Special Girl",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1963
-        },
-        {
-         "id": 331,
-         "bookSeriesNameId": 11,
-         "bookName": "On Call for Trouble",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1964
-        },
-        {
-         "id": 332,
-         "bookSeriesNameId": 11,
-         "bookName": "Danger Island",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1964
-        },
-        {
-         "id": 333,
-         "bookSeriesNameId": 11,
-         "bookName": "Tracy's Little People",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1965
-        },
-        {
-         "id": 334,
-         "bookSeriesNameId": 11,
-         "bookName": "Olympic Duty",
-         "bookAuthor": "Virginia Bleecher McDonnell",
-         "publicationDate": 1965
-        },
-        {
-         "id": 335,
-         "bookSeriesNameId": 12,
-         "bookName": "Pitcher's Duel",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1950
-        },
-        {
-         "id": 336,
-         "bookSeriesNameId": 12,
-         "bookName": "Touchdown Pass",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1948
-        },
-        {
-         "id": 337,
-         "bookSeriesNameId": 12,
-         "bookName": "Clutch Hitter!",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1949
-        },
-        {
-         "id": 338,
-         "bookSeriesNameId": 12,
-         "bookName": "Strike Three!",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1949
-        },
-        {
-         "id": 339,
-         "bookSeriesNameId": 12,
-         "bookName": "Championship Ball",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1948
-        },
-        {
-         "id": 340,
-         "bookSeriesNameId": 12,
-         "bookName": "Pay-Off Pitch",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1958
-        },
-        {
-         "id": 341,
-         "bookSeriesNameId": 12,
-         "bookName": "Freshman Quarterback",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1952
-        },
-        {
-         "id": 342,
-         "bookSeriesNameId": 12,
-         "bookName": "Hoop Crazy",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1950
-        },
-        {
-         "id": 343,
-         "bookSeriesNameId": 12,
-         "bookName": "Triple-Threat Trouble",
-         "bookAuthor": "Clair Bee",
-         "publicationDate": 1960
-        },
-        {
-         "id": 344,
-         "bookSeriesNameId": 13,
-         "bookName": "Stranger in the Backfield",
-         "bookAuthor": "Wilfred McCormick",
-         "publicationDate": 1960
-        },
-        {
-         "id": 345,
-         "bookSeriesNameId": 13,
-         "bookName": "The Three Two Pitch",
-         "bookAuthor": "Wilfred McCormick",
-         "publicationDate": 1948
-        },
-        {
-         "id": 346,
-         "bookSeriesNameId": 13,
-         "bookName": "Fielder's Choice",
-         "bookAuthor": "Wilfred McCormick",
-         "publicationDate": 1949
-        },
-        {
-         "id": 347,
-         "bookSeriesNameId": 13,
-         "bookName": "The Go-Ahead Runner",
-         "bookAuthor": "Wilfred McCormick",
-         "publicationDate": 1965
-        },
-        {
-         "id": 348,
-         "bookSeriesNameId": 13,
-         "bookName": "Rambling Halfback",
-         "bookAuthor": "Wilfred McCormick",
-         "publicationDate": 1950
-        },
-        {
-         "id": 349,
-         "bookSeriesNameId": 14,
-         "bookName": "Peggy on the Road",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1963
-        },
-        {
-         "id": 350,
-         "bookSeriesNameId": 14,
-         "bookName": "Peggy Finds the Theater",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1962
-        },
-        {
-         "id": 351,
-         "bookSeriesNameId": 15,
-         "bookName": "The Gray Menace",
-         "bookAuthor": "Betty Cavanna",
-         "publicationDate": 1953
-        },
-        {
-         "id": 352,
-         "bookSeriesNameId": 15,
-         "bookName": "The Clue in the Blue",
-         "bookAuthor": "Betty Cavanna",
-         "publicationDate": 1948
-        },
-        {
-         "id": 353,
-         "bookSeriesNameId": 15,
-         "bookName": "Puzzle in Purple",
-         "bookAuthor": "Betty Cavanna",
-         "publicationDate": 1948
-        },
-        {
-         "id": 354,
-         "bookSeriesNameId": 16,
-         "bookName": "At the Seashore",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1963
-        },
-        {
-         "id": 355,
-         "bookSeriesNameId": 16,
-         "bookName": "At the Seashore",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1950
-        },
-        {
-         "id": 356,
-         "bookSeriesNameId": 16,
-         "bookName": "Search in the Great City",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1960
-        },
-        {
-         "id": 357,
-         "bookSeriesNameId": 16,
-         "bookName": "Toy Shop",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1948
-        },
-        {
-         "id": 358,
-         "bookSeriesNameId": 16,
-         "bookName": "And the Horseshoe Riddle",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1953
-        },
-        {
-         "id": 359,
-         "bookSeriesNameId": 16,
-         "bookName": "Big Adventure at Home",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1960
-        },
-        {
-         "id": 360,
-         "bookSeriesNameId": 16,
-         "bookName": "In the Mystery Cave",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1960
-        },
-        {
-         "id": 361,
-         "bookSeriesNameId": 16,
-         "bookName": "At London Tower",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1959
-        },
-        {
-         "id": 362,
-         "bookSeriesNameId": 16,
-         "bookName": "Of Lakeport",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1961
-        },
-        {
-         "id": 363,
-         "bookSeriesNameId": 16,
-         "bookName": "Camping Out",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1951
-        },
-        {
-         "id": 364,
-         "bookSeriesNameId": 16,
-         "bookName": "On a Houseboat",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1955
-        },
-        {
-         "id": 365,
-         "bookSeriesNameId": 16,
-         "bookName": "The Bobbsey Twins at Lighthouse Point",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1939
-        },
-        {
-         "id": 366,
-         "bookSeriesNameId": 16,
-         "bookName": "Own Little Railroad",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1951
-        },
-        {
-         "id": 367,
-         "bookSeriesNameId": 16,
-         "bookName": "At the Seashore",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1950
-        },
-        {
-         "id": 368,
-         "bookSeriesNameId": 16,
-         "bookName": "In the Country",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1950
-        },
-        {
-         "id": 369,
-         "bookSeriesNameId": 16,
-         "bookName": "At Whitesail Harbour",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1952
-        },
-        {
-         "id": 370,
-         "bookSeriesNameId": 16,
-         "bookName": "At Big Bear Pond",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1958
-        },
-        {
-         "id": 371,
-         "bookSeriesNameId": 16,
-         "bookName": "In the Land of Cotton",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1942
-        },
-        {
-         "id": 372,
-         "bookSeriesNameId": 16,
-         "bookName": "At Snow Lodge",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1941
-        },
-        {
-         "id": 373,
-         "bookSeriesNameId": 16,
-         "bookName": "At School",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1941
-        },
-        {
-         "id": 374,
-         "bookSeriesNameId": 16,
-         "bookName": "At School",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1941
-        },
-        {
-         "id": 375,
-         "bookSeriesNameId": 16,
-         "bookName": "At the Seashore",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1954
-        },
-        {
-         "id": 376,
-         "bookSeriesNameId": 16,
-         "bookName": "Merry Days Indoors and Out",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1950
-        },
-        {
-         "id": 377,
-         "bookSeriesNameId": 17,
-         "bookName": "Stand By for Mars",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1952
-        },
-        {
-         "id": 378,
-         "bookSeriesNameId": 17,
-         "bookName": "Danger in Deep Space",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1953
-        },
-        {
-         "id": 379,
-         "bookSeriesNameId": 17,
-         "bookName": "On the Trail of the Space Pirates",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1953
-        },
-        {
-         "id": 380,
-         "bookSeriesNameId": 17,
-         "bookName": "The Space Pioneers",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1953
-        },
-        {
-         "id": 381,
-         "bookSeriesNameId": 17,
-         "bookName": "The Revolt on Venus",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1954
-        },
-        {
-         "id": 382,
-         "bookSeriesNameId": 17,
-         "bookName": "Treachery in Outer Space",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1954
-        },
-        {
-         "id": 383,
-         "bookSeriesNameId": 17,
-         "bookName": "Sabotage in Space",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1955
-        },
-        {
-         "id": 384,
-         "bookSeriesNameId": 17,
-         "bookName": "The Robot Rocket",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1956
-        },
-        {
-         "id": 385,
-         "bookSeriesNameId": 18,
-         "bookName": "The Lone Ranger and the Mystery Ranch",
-         "bookAuthor": "Fran Striker",
-         "publicationDate": 1938
-        },
-        {
-         "id": 386,
-         "bookSeriesNameId": 19,
-         "bookName": "The Mystery of the Blue Pelican",
-         "bookAuthor": "Nicolete Meredith Stack",
-         "publicationDate": 1966
-        },
-        {
-         "id": 387,
-         "bookSeriesNameId": 19,
-         "bookName": "The Mystery of Glengary Castle",
-         "bookAuthor": "Nicolete Meredith Stack",
-         "publicationDate": 1966
-        },
-        {
-         "id": 388,
-         "bookSeriesNameId": 19,
-         "bookName": "The Candle Shop Mystery",
-         "bookAuthor": "Nicolete Meredith Stack",
-         "publicationDate": 1967
-        },
-        {
-         "id": 389,
-         "bookSeriesNameId": 19,
-         "bookName": "Mystery in the Clouds",
-         "bookAuthor": "Nicolete Meredith Stack",
-         "publicationDate": 1971
-        },
-        {
-         "id": 390,
-         "bookSeriesNameId": 20,
-         "bookName": "By the Light of the Study Lamp",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1934
-        },
-        {
-         "id": 391,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret at Lone Tree Cottage",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1934
-        },
-        {
-         "id": 392,
-         "bookSeriesNameId": 20,
-         "bookName": "In the Shadow of the Tower",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1934
-        },
-        {
-         "id": 393,
-         "bookSeriesNameId": 20,
-         "bookName": "A Three-Cornered Mystery",
-         "bookAuthor": "Leslie McFarlane",
-         "publicationDate": 1935
-        },
-        {
-         "id": 394,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret at the Hermitage",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1936
-        },
-        {
-         "id": 395,
-         "bookSeriesNameId": 20,
-         "bookName": "The Circle of Footprints",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1937
-        },
-        {
-         "id": 396,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mystery of the Locked Room",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1938
-        },
-        {
-         "id": 397,
-         "bookSeriesNameId": 20,
-         "bookName": "The Clue in the Cobweb",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1939
-        },
-        {
-         "id": 398,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret at the Gatehouse",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1940
-        },
-        {
-         "id": 399,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mysterious Fireplace",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1941
-        },
-        {
-         "id": 400,
-         "bookSeriesNameId": 20,
-         "bookName": "The Clue of the Rusty Key",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1942
-        },
-        {
-         "id": 401,
-         "bookSeriesNameId": 20,
-         "bookName": "The Portrait in the Sand",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1943
-        },
-        {
-         "id": 402,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret in the Old Well",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1944
-        },
-        {
-         "id": 403,
-         "bookSeriesNameId": 20,
-         "bookName": "The Clue in the Ivy",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1952
-        },
-        {
-         "id": 404,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Jade Ring",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1953
-        },
-        {
-         "id": 405,
-         "bookSeriesNameId": 20,
-         "bookName": "Mystery at the Crossroads",
-         "bookAuthor": "Mildred Wirt Benson",
-         "publicationDate": 1954
-        },
-        {
-         "id": 406,
-         "bookSeriesNameId": 20,
-         "bookName": "The Ghost in the Gallery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1955
-        },
-        {
-         "id": 407,
-         "bookSeriesNameId": 20,
-         "bookName": "The Clue of the Black Flower",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1956
-        },
-        {
-         "id": 408,
-         "bookSeriesNameId": 20,
-         "bookName": "The Winking Ruby Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1957
-        },
-        {
-         "id": 409,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Swiss Chalet",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1958
-        },
-        {
-         "id": 410,
-         "bookSeriesNameId": 20,
-         "bookName": "The Haunted Lagoon",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1959
-        },
-        {
-         "id": 411,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mystery of the Bamboo Bird",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1960
-        },
-        {
-         "id": 412,
-         "bookSeriesNameId": 20,
-         "bookName": "The Sierra Gold Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1961
-        },
-        {
-         "id": 413,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of Lost Lake",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1962
-        },
-        {
-         "id": 414,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mystery of the Stone Tiger",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1963
-        },
-        {
-         "id": 415,
-         "bookSeriesNameId": 20,
-         "bookName": "The Riddle of the Frozen Fountain",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1964
-        },
-        {
-         "id": 416,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Silver Dolphin",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1965
-        },
-        {
-         "id": 417,
-         "bookSeriesNameId": 20,
-         "bookName": "Mystery of the Wax Queen",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1966
-        },
-        {
-         "id": 418,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Minstrel's Guitar",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1967
-        },
-        {
-         "id": 419,
-         "bookSeriesNameId": 20,
-         "bookName": "The Phantom Surfer",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1968
-        },
-        {
-         "id": 420,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mystery of the Stone Tiger",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 421,
-         "bookSeriesNameId": 20,
-         "bookName": "The Riddle of the Frozen Fountain",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 422,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Silver Dolphin",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 423,
-         "bookSeriesNameId": 20,
-         "bookName": "Mystery of the Wax Queen",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 424,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Minstrel's Guitar",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 425,
-         "bookSeriesNameId": 20,
-         "bookName": "The Phantom Surfer",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1972
-        },
-        {
-         "id": 426,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of the Swiss Chalet",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1973
-        },
-        {
-         "id": 427,
-         "bookSeriesNameId": 20,
-         "bookName": "The Haunted Lagoon",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1973
-        },
-        {
-         "id": 428,
-         "bookSeriesNameId": 20,
-         "bookName": "The Mystery of the Bamboo Bird",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1973
-        },
-        {
-         "id": 429,
-         "bookSeriesNameId": 20,
-         "bookName": "The Sierra Gold Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1973
-        },
-        {
-         "id": 430,
-         "bookSeriesNameId": 20,
-         "bookName": "The Secret of Lost Lake",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1974
-        },
-        {
-         "id": 431,
-         "bookSeriesNameId": 20,
-         "bookName": "The Winking Ruby Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1974
-        },
-        {
-         "id": 432,
-         "bookSeriesNameId": 20,
-         "bookName": "The Ghost in the Gallery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1975
-        },
-        {
-         "id": 433,
-         "bookSeriesNameId": 20,
-         "bookName": "The Curious Coronation",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1976
-        },
-        {
-         "id": 434,
-         "bookSeriesNameId": 20,
-         "bookName": "The Hundred-Year Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1977
-        },
-        {
-         "id": 435,
-         "bookSeriesNameId": 20,
-         "bookName": "Mountain-Peak Mystery",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1978
-        },
-        {
-         "id": 436,
-         "bookSeriesNameId": 20,
-         "bookName": "The Witch's Omen",
-         "bookAuthor": "Unknown",
-         "publicationDate": 1979
-        },
-        {
-         "id": 437,
-         "bookSeriesNameId": 21,
-         "bookName": "The Secret of Terror Castle",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1964
-        },
-        {
-         "id": 438,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Whispering Mummy ",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1965
-        },
-        {
-         "id": 439,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Green Ghost ",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1965
-        },
-        {
-         "id": 440,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Vanishing Treasure ",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1966
-        },
-        {
-         "id": 441,
-         "bookSeriesNameId": 21,
-         "bookName": "The Secret of Skeleton Island ",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1966
-        },
-        {
-         "id": 442,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Fiery Eye ",
-         "bookAuthor": "Robert Arthur",
-         "publicationDate": 1967
-        },
-        {
-         "id": 443,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Moaning Cave ",
-         "bookAuthor": "William Arden",
-         "publicationDate": 1968
-        },
-        {
-         "id": 444,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Nervous Lion ",
-         "bookAuthor": "Nick West",
-         "publicationDate": 1971
-        },
-        {
-         "id": 445,
-         "bookSeriesNameId": 21,
-         "bookName": "The Secret of the Haunted Mirror ",
-         "bookAuthor": "M. V. Carey",
-         "publicationDate": 1974
-        },
-        {
-         "id": 446,
-         "bookSeriesNameId": 21,
-         "bookName": "The Mystery of the Dead Man's Riddle ",
-         "bookAuthor": "William Arden",
-         "publicationDate": 1974
-        },
-        {
-         "id": 447,
-         "bookSeriesNameId": 22,
-         "bookName": "The Secret of Thunder Mountain ",
-         "bookAuthor": "Fran Striker",
-         "publicationDate": 1952
-        },
-        {
-         "id": 448,
-         "bookSeriesNameId": 22,
-         "bookName": "Sign of the Spiral ",
-         "bookAuthor": "Fran Striker",
-         "publicationDate": 1947
-        },
-        {
-         "id": 449,
-         "bookSeriesNameId": 23,
-         "bookName": "X Marks the Spy",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1967
-        },
-        {
-         "id": 450,
-         "bookSeriesNameId": 23,
-         "bookName": "Mission: Moonfire",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1967
-        },
-        {
-         "id": 451,
-         "bookSeriesNameId": 23,
-         "bookName": "Department of Danger",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1967
-        },
-        {
-         "id": 452,
-         "bookSeriesNameId": 23,
-         "bookName": "Ace of Shadows",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1967
-        },
-        {
-         "id": 453,
-         "bookSeriesNameId": 23,
-         "bookName": "Heads You Lose",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1968
-        },
-        {
-         "id": 454,
-         "bookSeriesNameId": 23,
-         "bookName": "Trial By Fire",
-         "bookAuthor": "James Lawrence",
-         "publicationDate": 1969
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Lauren Longfellow",
+      "email": "Lauren@Longfellow.com",
+      "membershipDate": "09-12-2022",
+      "userAddress": "100 Green St",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "fullName": "Matty Mason",
+      "email": "Matty@Mason.com",
+      "membershipDate": "08-18-2022",
+      "userAddress": "1325 Steekee St",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "fullName": "Peter Pippen",
+      "email": "Peter@Pippen.com",
+      "membershipDate": "08-24-2022",
+      "userAddress": "200 Chahyga Ln",
+      "isAdmin": true
+    },
+    {
+      "id": 4,
+      "fullName": "Brandy Brazen",
+      "email": "Brandy@Brazen.com",
+      "membershipDate": "08-30-2022",
+      "userAddress": "120 Cheeskogili Dr",
+      "isAdmin": false
+    }
+  ],
+  "bookSeriesNames": [
+    {
+      "id": 1,
+      "bookSeries": "The Hardy Boys Mystery Stories"
+    },
+    {
+      "id": 2,
+      "bookSeries": "Nancy Drew Mystery Stories"
+    },
+    {
+      "id": 3,
+      "bookSeries": "The Rick Brant Science-Adventure Series"
+    },
+    {
+      "id": 4,
+      "bookSeries": "The New Tom Swift Jr. Adventures"
+    },
+    {
+      "id": 5,
+      "bookSeries": "The Tom Swift Sr Series"
+    },
+    {
+      "id": 6,
+      "bookSeries": "Judy Bolton Mystery Series"
+    },
+    {
+      "id": 7,
+      "bookSeries": "Clue Book Series"
+    },
+    {
+      "id": 8,
+      "bookSeries": "The Vicki Barr Flight Stewardess Series"
+    },
+    {
+      "id": 9,
+      "bookSeries": "The Ken Holt Series"
+    },
+    {
+      "id": 10,
+      "bookSeries": "The Cherry Ames Series"
+    },
+    {
+      "id": 11,
+      "bookSeries": "The Nurses Three Series"
+    },
+    {
+      "id": 12,
+      "bookSeries": "The Chip Hilton Sports Stories"
+    },
+    {
+      "id": 13,
+      "bookSeries": "The Bronc Burnett Stories"
+    },
+    {
+      "id": 14,
+      "bookSeries": "The Peggy Lane Theater Stories"
+    },
+    {
+      "id": 15,
+      "bookSeries": "The Connie Blair Mystery Stories"
+    },
+    {
+      "id": 16,
+      "bookSeries": "The Bobbsey Twins Series"
+    },
+    {
+      "id": 17,
+      "bookSeries": "Tom Corbett: Space Cadet"
+    },
+    {
+      "id": 18,
+      "bookSeries": "The Lone Ranger Series"
+    },
+    {
+      "id": 19,
+      "bookSeries": "The Robin Kane Mystery Series"
+    },
+    {
+      "id": 20,
+      "bookSeries": "The Dana Girls Mystery Series"
+    },
+    {
+      "id": 21,
+      "bookSeries": "Alfred Hitchcock and the Three Investigators"
+    },
+    {
+      "id": 22,
+      "bookSeries": "The Tom Quest Adventure Series"
+    },
+    {
+      "id": 23,
+      "bookSeries": "Alfred Hitchcock and the Three Investigators"
+    }
+  ],
+  "ownedBooks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "bookId": 8,
+      "bookThoughts": "Best of the series!",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "bookId": 35,
+      "bookThoughts": "Pretty good for a later book in the series.",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "bookId": 135,
+      "bookThoughts": "My first Rick Brant; Quite fun adventure in D.C.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "bookId": 19,
+      "bookThoughts": "Good mystery, although a little obvious how the floor disappears.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "bookId": 174,
+      "bookThoughts": "The cover is fantastic!",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "bookId": 9,
+      "bookThoughts": "Pretty enjoyable.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "bookId": 1,
+      "bookThoughts": "First adventure of the series.",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "bookId": 161,
+      "bookThoughts": "Fun romp into sapce.",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "bookId": 3,
+      "bookThoughts": "Catching counterfeiters!",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "bookId": 234,
+      "bookThoughts": "A little predictable.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "bookId": 9,
+      "bookThoughts": "Back when airplanes were new and exciting.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "bookId": 12,
+      "bookThoughts": "Their father left the footprints; he has small feet....",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "bookId": 67,
+      "bookThoughts": "Good introduction to Nancy Drew.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "bookThoughts": " fun to go to the mooon.",
+      "dustJacket": false,
+      "bookId": 167,
+      "userId": 3,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": "",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "bookId": 37,
+      "bookThoughts": "Not too bad.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 16,
+      "userId": 3,
+      "bookId": 87,
+      "bookThoughts": "Creepy old house story!",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "bookId": 93,
+      "bookThoughts": "Sailing the seas!",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 18,
+      "userId": 3,
+      "bookId": 141,
+      "bookThoughts": "Quite thrilling.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 19,
+      "userId": 4,
+      "bookId": 20,
+      "bookThoughts": "Train Trip!",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 20,
+      "userId": 4,
+      "bookId": 73,
+      "bookThoughts": "Read this in one sitting.",
+      "dustJacket": true,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 21,
+      "userId": 4,
+      "bookId": 186,
+      "bookThoughts": "Had to force myself to finish this one.",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    },
+    {
+      "id": 22,
+      "userId": 4,
+      "bookId": 102,
+      "bookThoughts": "Kept my attention.",
+      "dustJacket": false,
+      "ableToLoan": false,
+      "isClaimed": false,
+      "bookImage": ""
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "bookSeriesNameId": 1,
+      "bookName": "The Tower Treasure",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1927
+    },
+    {
+      "id": 2,
+      "bookSeriesNameId": 1,
+      "bookName": "The House on the Cliff",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1927
+    },
+    {
+      "id": 3,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of the Old Mill",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1927
+    },
+    {
+      "id": 4,
+      "bookSeriesNameId": 1,
+      "bookName": "The Missing Chums",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1928
+    },
+    {
+      "id": 5,
+      "bookSeriesNameId": 1,
+      "bookName": "Hunting for Hidden Gold",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1928
+    },
+    {
+      "id": 6,
+      "bookSeriesNameId": 1,
+      "bookName": "The Shore Road Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1928
+    },
+    {
+      "id": 7,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of the Caves",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1929
+    },
+    {
+      "id": 8,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery of Cabin Island",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1929
+    },
+    {
+      "id": 9,
+      "bookSeriesNameId": 1,
+      "bookName": "The Great Airport Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1930
+    },
+    {
+      "id": 10,
+      "bookSeriesNameId": 1,
+      "bookName": "What Happened at Midnight",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1931
+    },
+    {
+      "id": 11,
+      "bookSeriesNameId": 1,
+      "bookName": "While the Clock Ticked",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1932
+    },
+    {
+      "id": 12,
+      "bookSeriesNameId": 1,
+      "bookName": "Footprints Under the Window",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1933
+    },
+    {
+      "id": 13,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mark on the Door",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1934
+    },
+    {
+      "id": 14,
+      "bookSeriesNameId": 1,
+      "bookName": "The Hidden Harbor Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1935
+    },
+    {
+      "id": 15,
+      "bookSeriesNameId": 1,
+      "bookName": "The Sinister Sign Post",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1936
+    },
+    {
+      "id": 16,
+      "bookSeriesNameId": 1,
+      "bookName": "A Figure in Hiding",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1937
+    },
+    {
+      "id": 17,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret Warning",
+      "bookAuthor": "John Button",
+      "publicationDate": 1938
+    },
+    {
+      "id": 18,
+      "bookSeriesNameId": 1,
+      "bookName": "The Twisted Claw",
+      "bookAuthor": "John Button",
+      "publicationDate": 1939
+    },
+    {
+      "id": 19,
+      "bookSeriesNameId": 1,
+      "bookName": "The Disappearing Floor",
+      "bookAuthor": "John Button",
+      "publicationDate": 1940
+    },
+    {
+      "id": 20,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery of the Flying Express",
+      "bookAuthor": "John Button",
+      "publicationDate": 1941
+    },
+    {
+      "id": 21,
+      "bookSeriesNameId": 1,
+      "bookName": "The Clue of the Broken Blade",
+      "bookAuthor": "John Button",
+      "publicationDate": 1942
+    },
+    {
+      "id": 22,
+      "bookSeriesNameId": 1,
+      "bookName": "The Flickering Torch Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1943
+    },
+    {
+      "id": 23,
+      "bookSeriesNameId": 1,
+      "bookName": "The Melted Coins",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1944
+    },
+    {
+      "id": 24,
+      "bookSeriesNameId": 1,
+      "bookName": "The Short-Wave Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1945
+    },
+    {
+      "id": 25,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret Panel",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1946
+    },
+    {
+      "id": 26,
+      "bookSeriesNameId": 1,
+      "bookName": "The Phantom Freighter",
+      "bookAuthor": "Amy McFarlane",
+      "publicationDate": 1947
+    },
+    {
+      "id": 27,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of Skull Mountain",
+      "bookAuthor": "George Waller Jr.",
+      "publicationDate": 1948
+    },
+    {
+      "id": 28,
+      "bookSeriesNameId": 1,
+      "bookName": "The Sign of the Crooked Arrow",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1949
+    },
+    {
+      "id": 29,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of the Lost Tunnel",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1950
+    },
+    {
+      "id": 30,
+      "bookSeriesNameId": 1,
+      "bookName": "The Wailing Siren Mystery  ",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1951
+    },
+    {
+      "id": 31,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of Wildcat Swamp",
+      "bookAuthor": "William Dougherty",
+      "publicationDate": 1952
+    },
+    {
+      "id": 32,
+      "bookSeriesNameId": 1,
+      "bookName": "The Crisscross Shadow",
+      "bookAuthor": "Richard Cohen",
+      "publicationDate": 1953
+    },
+    {
+      "id": 33,
+      "bookSeriesNameId": 1,
+      "bookName": "The Yellow Feather Mystery",
+      "bookAuthor": "William Dougherty",
+      "publicationDate": 1953
+    },
+    {
+      "id": 34,
+      "bookSeriesNameId": 1,
+      "bookName": "The Hooded Hawk Mystery",
+      "bookAuthor": "Charles S. Strong",
+      "publicationDate": 1954
+    },
+    {
+      "id": 35,
+      "bookSeriesNameId": 1,
+      "bookName": "The Clue in the Embers",
+      "bookAuthor": "John Almquist",
+      "publicationDate": 1955
+    },
+    {
+      "id": 36,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret of Pirates' Hill",
+      "bookAuthor": "John Almquist",
+      "publicationDate": 1956
+    },
+    {
+      "id": 37,
+      "bookSeriesNameId": 1,
+      "bookName": "The Ghost at Skeleton Rock",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1957
+    },
+    {
+      "id": 38,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery at Devil's Paw",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1959
+    },
+    {
+      "id": 39,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery of the Chinese Junk",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1960
+    },
+    {
+      "id": 40,
+      "bookSeriesNameId": 1,
+      "bookName": "Mystery of the Desert Giant",
+      "bookAuthor": "James Buechler",
+      "publicationDate": 1961
+    },
+    {
+      "id": 41,
+      "bookSeriesNameId": 1,
+      "bookName": "The Clue of the Screeching Owl",
+      "bookAuthor": "James Buechler",
+      "publicationDate": 1962
+    },
+    {
+      "id": 42,
+      "bookSeriesNameId": 1,
+      "bookName": "The Viking Symbol Mystery",
+      "bookAuthor": "Alistair Hunter",
+      "publicationDate": 1963
+    },
+    {
+      "id": 43,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery of the Aztec Warrior",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1964
+    },
+    {
+      "id": 44,
+      "bookSeriesNameId": 1,
+      "bookName": "The Haunted Fort",
+      "bookAuthor": "David Grumbs",
+      "publicationDate": 1965
+    },
+    {
+      "id": 45,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mystery of the Spiral Bridge",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1966
+    },
+    {
+      "id": 46,
+      "bookSeriesNameId": 1,
+      "bookName": "The Secret Agent on Flight 101",
+      "bookAuthor": "Tom Mulvey",
+      "publicationDate": 1967
+    },
+    {
+      "id": 47,
+      "bookSeriesNameId": 1,
+      "bookName": "Mystery of the Whale Tattoo",
+      "bookAuthor": "Jerrold Mundis",
+      "publicationDate": 1968
+    },
+    {
+      "id": 48,
+      "bookSeriesNameId": 1,
+      "bookName": "The Arctic Patrol Mystery",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1969
+    },
+    {
+      "id": 49,
+      "bookSeriesNameId": 1,
+      "bookName": "The Bombay Boomerang",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1970
+    },
+    {
+      "id": 50,
+      "bookSeriesNameId": 1,
+      "bookName": "Danger on Vampire Trail",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1971
+    },
+    {
+      "id": 51,
+      "bookSeriesNameId": 1,
+      "bookName": "The Masked Monkey",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1972
+    },
+    {
+      "id": 52,
+      "bookSeriesNameId": 1,
+      "bookName": "The Shattered Helmet",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1973
+    },
+    {
+      "id": 53,
+      "bookSeriesNameId": 1,
+      "bookName": "The Clue of the Hissing Serpent",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1974
+    },
+    {
+      "id": 54,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mysterious Caravan",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1975
+    },
+    {
+      "id": 55,
+      "bookSeriesNameId": 1,
+      "bookName": "The Witchmaster's Key",
+      "bookAuthor": "Andrew Svenson",
+      "publicationDate": 1976
+    },
+    {
+      "id": 56,
+      "bookSeriesNameId": 1,
+      "bookName": "The Jungle Pyramid",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1977
+    },
+    {
+      "id": 57,
+      "bookSeriesNameId": 1,
+      "bookName": "The Firebird Rocket",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1978
+    },
+    {
+      "id": 58,
+      "bookSeriesNameId": 1,
+      "bookName": "The Sting of the Scorpion",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1979
+    },
+    {
+      "id": 59,
+      "bookSeriesNameId": 1,
+      "bookName": "Night of the Werewolf",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1979
+    },
+    {
+      "id": 60,
+      "bookSeriesNameId": 1,
+      "bookName": "Mystery of the Samurai Sword",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1979
+    },
+    {
+      "id": 61,
+      "bookSeriesNameId": 1,
+      "bookName": "The Pentagon Spy",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1980
+    },
+    {
+      "id": 62,
+      "bookSeriesNameId": 1,
+      "bookName": "The Apeman's Secret",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1980
+    },
+    {
+      "id": 63,
+      "bookSeriesNameId": 1,
+      "bookName": "The Mummy Case",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1980
+    },
+    {
+      "id": 64,
+      "bookSeriesNameId": 1,
+      "bookName": "Mystery of Smugglers Cove",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1980
+    },
+    {
+      "id": 65,
+      "bookSeriesNameId": 1,
+      "bookName": "The Stone Idol",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1981
+    },
+    {
+      "id": 66,
+      "bookSeriesNameId": 1,
+      "bookName": "The Vanishing Thieves",
+      "bookAuthor": "Richard Deming",
+      "publicationDate": 1981
+    },
+    {
+      "id": 67,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of the Old Clock",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1930
+    },
+    {
+      "id": 68,
+      "bookSeriesNameId": 2,
+      "bookName": "The Hidden Staircase",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1930
+    },
+    {
+      "id": 69,
+      "bookSeriesNameId": 2,
+      "bookName": "The Bungalow Mystery",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1930
+    },
+    {
+      "id": 70,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery at Lilac Inn",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1930
+    },
+    {
+      "id": 71,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret at Shadow Ranch",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1931
+    },
+    {
+      "id": 72,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of Red Gate Farm",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1931
+    },
+    {
+      "id": 73,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Diary",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1932
+    },
+    {
+      "id": 74,
+      "bookSeriesNameId": 2,
+      "bookName": "Nancy's Mysterious Letter",
+      "bookAuthor": "Walter Karig",
+      "publicationDate": 1932
+    },
+    {
+      "id": 75,
+      "bookSeriesNameId": 2,
+      "bookName": "The Sign of the Twisted Candles",
+      "bookAuthor": "Walter Karig",
+      "publicationDate": 1933
+    },
+    {
+      "id": 76,
+      "bookSeriesNameId": 2,
+      "bookName": "The Password to Larkspur Lane",
+      "bookAuthor": "Walter Karig",
+      "publicationDate": 1933
+    },
+    {
+      "id": 77,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Broken Locket",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1934
+    },
+    {
+      "id": 78,
+      "bookSeriesNameId": 2,
+      "bookName": "The Message in the Hollow Oak",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1935
+    },
+    {
+      "id": 79,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery of the Ivory Charm",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1936
+    },
+    {
+      "id": 80,
+      "bookSeriesNameId": 2,
+      "bookName": "The Whispering Statue",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1937
+    },
+    {
+      "id": 81,
+      "bookSeriesNameId": 2,
+      "bookName": "The Haunted Bridge",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1937
+    },
+    {
+      "id": 82,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Tapping Heels",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1939
+    },
+    {
+      "id": 83,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery of the Brass-Bound Trunk",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1940
+    },
+    {
+      "id": 84,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery at the Moss-Covered Mansion",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1941
+    },
+    {
+      "id": 85,
+      "bookSeriesNameId": 2,
+      "bookName": "The Quest of the Missing Map",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1942
+    },
+    {
+      "id": 86,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Jewel Box",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1943
+    },
+    {
+      "id": 87,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret in the Old Attic",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1944
+    },
+    {
+      "id": 88,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Crumbling Wall",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1945
+    },
+    {
+      "id": 89,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery of the Tolling Bell",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1946
+    },
+    {
+      "id": 90,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Old Album",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1947
+    },
+    {
+      "id": 91,
+      "bookSeriesNameId": 2,
+      "bookName": "The Ghost of Blackwood Hall",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1948
+    },
+    {
+      "id": 92,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Leaning Chimney",
+      "bookAuthor": "George Waller Jr.",
+      "publicationDate": 1949
+    },
+    {
+      "id": 93,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of the Wooden Lady",
+      "bookAuthor": "Margaret Scherf",
+      "publicationDate": 1950
+    },
+    {
+      "id": 94,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Black Keys",
+      "bookAuthor": "Wilhelmina Rankin",
+      "publicationDate": 1951
+    },
+    {
+      "id": 95,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery at the Ski Jump",
+      "bookAuthor": "Alma Sasse",
+      "publicationDate": 1952
+    },
+    {
+      "id": 96,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Velvet Mask",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1953
+    },
+    {
+      "id": 97,
+      "bookSeriesNameId": 2,
+      "bookName": "The Ringmaster's Secret",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1953
+    },
+    {
+      "id": 98,
+      "bookSeriesNameId": 2,
+      "bookName": "The Scarlet Slipper Mystery",
+      "bookAuthor": "Charles S. Strong",
+      "publicationDate": 1954
+    },
+    {
+      "id": 99,
+      "bookSeriesNameId": 2,
+      "bookName": "The Witch Tree Symbol",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1955
+    },
+    {
+      "id": 100,
+      "bookSeriesNameId": 2,
+      "bookName": "The Hidden Window Mystery",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1956
+    },
+    {
+      "id": 101,
+      "bookSeriesNameId": 2,
+      "bookName": "The Haunted Showboat",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1957
+    },
+    {
+      "id": 102,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of the Golden Paviliion",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1959
+    },
+    {
+      "id": 103,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Old Stagecoach",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1960
+    },
+    {
+      "id": 104,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery of the Fire Dragon",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1961
+    },
+    {
+      "id": 105,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Dancing Puppet",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1962
+    },
+    {
+      "id": 106,
+      "bookSeriesNameId": 2,
+      "bookName": "The Moonstone Castle Mystery",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1963
+    },
+    {
+      "id": 107,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue of the Whistling Bagpipes",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1964
+    },
+    {
+      "id": 108,
+      "bookSeriesNameId": 2,
+      "bookName": "The Phantom of Pine Hill",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1965
+    },
+    {
+      "id": 109,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mystery of the 99 Steps",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1966
+    },
+    {
+      "id": 110,
+      "bookSeriesNameId": 2,
+      "bookName": "The Clue in the Crossword Cipher",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1967
+    },
+    {
+      "id": 111,
+      "bookSeriesNameId": 2,
+      "bookName": "The Spider Sapphire Mystery",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1968
+    },
+    {
+      "id": 112,
+      "bookSeriesNameId": 2,
+      "bookName": "The Invisible Intruder",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1969
+    },
+    {
+      "id": 113,
+      "bookSeriesNameId": 2,
+      "bookName": "The Mysterioius Mannequin",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1970
+    },
+    {
+      "id": 114,
+      "bookSeriesNameId": 2,
+      "bookName": "The Crooked Banister",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1971
+    },
+    {
+      "id": 115,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of Mirror Bay",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1972
+    },
+    {
+      "id": 116,
+      "bookSeriesNameId": 2,
+      "bookName": "The Double Jinx Mystery",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1973
+    },
+    {
+      "id": 117,
+      "bookSeriesNameId": 2,
+      "bookName": "Mystery of the Glowing Eye",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1974
+    },
+    {
+      "id": 118,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret of the Forgotten City",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1975
+    },
+    {
+      "id": 119,
+      "bookSeriesNameId": 2,
+      "bookName": "The Sky Phantom",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1976
+    },
+    {
+      "id": 120,
+      "bookSeriesNameId": 2,
+      "bookName": "The Strange Message in the Parchment",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1977
+    },
+    {
+      "id": 121,
+      "bookSeriesNameId": 2,
+      "bookName": "Mystery of Crocodile Island",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1978
+    },
+    {
+      "id": 122,
+      "bookSeriesNameId": 2,
+      "bookName": "The Thirteenth Pearl",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1979
+    },
+    {
+      "id": 123,
+      "bookSeriesNameId": 2,
+      "bookName": "The Triple Hoax",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1979
+    },
+    {
+      "id": 124,
+      "bookSeriesNameId": 2,
+      "bookName": "The Flying Saucer Mystery",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1980
+    },
+    {
+      "id": 125,
+      "bookSeriesNameId": 2,
+      "bookName": "The Secret in the Old Lace",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1980
+    },
+    {
+      "id": 126,
+      "bookSeriesNameId": 2,
+      "bookName": "The Greek Symbol Mystery",
+      "bookAuthor": "Nancy Axelrad",
+      "publicationDate": 1980
+    },
+    {
+      "id": 127,
+      "bookSeriesNameId": 2,
+      "bookName": "The Swami's Ring",
+      "bookAuthor": "Nancy Axelrad",
+      "publicationDate": 1981
+    },
+    {
+      "id": 128,
+      "bookSeriesNameId": 2,
+      "bookName": "The Kachina Doll Mystery",
+      "bookAuthor": "Sharon Wagner",
+      "publicationDate": 1981
+    },
+    {
+      "id": 129,
+      "bookSeriesNameId": 2,
+      "bookName": "The Twin Dilemma",
+      "bookAuthor": "Nancy Axelrad",
+      "publicationDate": 1981
+    },
+    {
+      "id": 130,
+      "bookSeriesNameId": 2,
+      "bookName": "Captive Witness",
+      "bookAuthor": "Richard Ballad",
+      "publicationDate": 1981
+    },
+    {
+      "id": 131,
+      "bookSeriesNameId": 3,
+      "bookName": "The Rocket's Shadow",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1947
+    },
+    {
+      "id": 132,
+      "bookSeriesNameId": 3,
+      "bookName": "The Lost City",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1947
+    },
+    {
+      "id": 133,
+      "bookSeriesNameId": 3,
+      "bookName": "Sea Gold",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1947
+    },
+    {
+      "id": 134,
+      "bookSeriesNameId": 3,
+      "bookName": "100 Fathoms Under",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1947
+    },
+    {
+      "id": 135,
+      "bookSeriesNameId": 3,
+      "bookName": "The Whispering Box Mystery",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1948
+    },
+    {
+      "id": 136,
+      "bookSeriesNameId": 3,
+      "bookName": "The Phantom Shark",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1949
+    },
+    {
+      "id": 137,
+      "bookSeriesNameId": 3,
+      "bookName": "Smugglers' Reef",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1950
+    },
+    {
+      "id": 138,
+      "bookSeriesNameId": 3,
+      "bookName": "The Caves of Fear",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1951
+    },
+    {
+      "id": 139,
+      "bookSeriesNameId": 3,
+      "bookName": "Stairway to Danger",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1952
+    },
+    {
+      "id": 140,
+      "bookSeriesNameId": 3,
+      "bookName": "The Golden Skull",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1954
+    },
+    {
+      "id": 141,
+      "bookSeriesNameId": 3,
+      "bookName": "The Wailing Octopus",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1956
+    },
+    {
+      "id": 142,
+      "bookSeriesNameId": 3,
+      "bookName": "The Electronic Mind Reader",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1957
+    },
+    {
+      "id": 143,
+      "bookSeriesNameId": 3,
+      "bookName": "The Scarlet Lake Mystery",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1958
+    },
+    {
+      "id": 144,
+      "bookSeriesNameId": 3,
+      "bookName": "The Pirates of Shan",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1958
+    },
+    {
+      "id": 145,
+      "bookSeriesNameId": 3,
+      "bookName": "The Blue Ghost Mystery",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1960
+    },
+    {
+      "id": 146,
+      "bookSeriesNameId": 3,
+      "bookName": "The Egyptian Cat Mystery",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1961
+    },
+    {
+      "id": 147,
+      "bookSeriesNameId": 3,
+      "bookName": "The Flaming Mountain",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1962
+    },
+    {
+      "id": 148,
+      "bookSeriesNameId": 3,
+      "bookName": "The Flying Stingaree",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1963
+    },
+    {
+      "id": 149,
+      "bookSeriesNameId": 3,
+      "bookName": "The Ruby Ray Mystery",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1964
+    },
+    {
+      "id": 150,
+      "bookSeriesNameId": 3,
+      "bookName": "The Veiled Raiders",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1965
+    },
+    {
+      "id": 151,
+      "bookSeriesNameId": 3,
+      "bookName": "Rocket Jumper",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1966
+    },
+    {
+      "id": 152,
+      "bookSeriesNameId": 3,
+      "bookName": "The Deadly Dutchman",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1967
+    },
+    {
+      "id": 153,
+      "bookSeriesNameId": 3,
+      "bookName": "Danger Below!",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1968
+    },
+    {
+      "id": 154,
+      "bookSeriesNameId": 3,
+      "bookName": "The Magic Talisman",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1990
+    },
+    {
+      "id": 155,
+      "bookSeriesNameId": 3,
+      "bookName": "Rick Brant's Science Projects",
+      "bookAuthor": "Harold L. Goodwin",
+      "publicationDate": 1960
+    },
+    {
+      "id": 156,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Flying Lab",
+      "bookAuthor": "William Dougherty",
+      "publicationDate": 1954
+    },
+    {
+      "id": 157,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Jetmarine",
+      "bookAuthor": "John Almquist",
+      "publicationDate": 1954
+    },
+    {
+      "id": 158,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Rocket Ship",
+      "bookAuthor": "John Almquist",
+      "publicationDate": 1954
+    },
+    {
+      "id": 159,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Giant Robot",
+      "bookAuthor": "Richard Sklar",
+      "publicationDate": 1954
+    },
+    {
+      "id": 160,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Atomic Earth Blaster",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1954
+    },
+    {
+      "id": 161,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Outpost in Space",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1955
+    },
+    {
+      "id": 162,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Diving Seacopter",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1956
+    },
+    {
+      "id": 163,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift in the Caves of Nuclear Fire",
+      "bookAuthor": "Thomas Mulvey",
+      "publicationDate": 1956
+    },
+    {
+      "id": 164,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift on the Phantom Satellite",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1956
+    },
+    {
+      "id": 165,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Ultrasonic Cycloplane",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1957
+    },
+    {
+      "id": 166,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Deep-Sea Hydrodome",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1958
+    },
+    {
+      "bookSeriesNameId": 8,
+      "bookName": "Tom Swift in the ",
+      "bookAuthor": " Lawrence",
+      "publicationDate": "1948",
+      "id": 167
+    },
+    {
+      "id": 168,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Space Solartron",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1958
+    },
+    {
+      "id": 169,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Electronic Rotoscope",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1959
+    },
+    {
+      "id": 170,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Spectromarine Selector",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1960
+    },
+    {
+      "id": 171,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Cosmic Astronauts",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1960
+    },
+    {
+      "id": 172,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Visitor from Planet X",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1961
+    },
+    {
+      "id": 173,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Electronic Hydrolung",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1961
+    },
+    {
+      "id": 174,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Triphibian Atomicar",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1962
+    },
+    {
+      "id": 175,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Megascope Space Prober",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1962
+    },
+    {
+      "id": 176,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Asteroid Pirates",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1963
+    },
+    {
+      "id": 177,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Repelatron Skyway",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1963
+    },
+    {
+      "id": 178,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Aquatomic Tracker",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1964
+    },
+    {
+      "id": 179,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His 3-D Telejector",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1964
+    },
+    {
+      "id": 180,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Polar-Ray Dynasphere",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1965
+    },
+    {
+      "id": 181,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Sonic Boom Trap",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1965
+    },
+    {
+      "id": 182,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Subocean Geotron",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1966
+    },
+    {
+      "id": 183,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Mystery Comet",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1966
+    },
+    {
+      "id": 184,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Captive Planetoid",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1967
+    },
+    {
+      "id": 185,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His G-Force Inverter",
+      "bookAuthor": "Thomas Mulvey",
+      "publicationDate": 1968
+    },
+    {
+      "id": 186,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Dyna-4 Capsule",
+      "bookAuthor": "Richard McKenna",
+      "publicationDate": 1969
+    },
+    {
+      "id": 187,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and His Cosmotron Express",
+      "bookAuthor": "Richard McKenna",
+      "publicationDate": 1970
+    },
+    {
+      "id": 188,
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift and the Galaxy Ghosts",
+      "bookAuthor": "Vincent Buranelli",
+      "publicationDate": 1971
+    },
+    {
+      "id": 189,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Motorcycle",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1910
+    },
+    {
+      "id": 190,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Motor Boat",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1910
+    },
+    {
+      "id": 191,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Airship",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1910
+    },
+    {
+      "id": 192,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Submarine Boat",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1910
+    },
+    {
+      "id": 193,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Electric Runabout",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1910
+    },
+    {
+      "id": 194,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Wireless Message",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1911
+    },
+    {
+      "id": 195,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift Among the Diamond Makers",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1911
+    },
+    {
+      "id": 196,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift in the Caves of Ice",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1911
+    },
+    {
+      "id": 197,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Sky Racer",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1911
+    },
+    {
+      "id": 198,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Electric Rifle",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1911
+    },
+    {
+      "id": 199,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift in the City of Gold",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1912
+    },
+    {
+      "id": 200,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Air Glider",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1912
+    },
+    {
+      "id": 201,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift in Captivity",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1912
+    },
+    {
+      "id": 202,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Wizard Camera",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1912
+    },
+    {
+      "id": 203,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Great Searchlight",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1912
+    },
+    {
+      "id": 204,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Giant Cannon",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1913
+    },
+    {
+      "id": 205,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Photo Telephone",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1914
+    },
+    {
+      "id": 206,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Aerial Warship",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1915
+    },
+    {
+      "id": 207,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Big Tunnel",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1916
+    },
+    {
+      "id": 208,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift in the Land of the Wonders",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1917
+    },
+    {
+      "id": 209,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His War Tank ",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1918
+    },
+    {
+      "id": 210,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Air Scout",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1919
+    },
+    {
+      "id": 211,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Undersea Search",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1920
+    },
+    {
+      "id": 212,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift Among the Fire Fighters",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1921
+    },
+    {
+      "id": 213,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Electric Locomotive",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1922
+    },
+    {
+      "id": 214,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Flying Boat",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1923
+    },
+    {
+      "id": 215,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Great Oil Gusher",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1924
+    },
+    {
+      "id": 216,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Chest of Secrets",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1925
+    },
+    {
+      "id": 217,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Airline Express",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1926
+    },
+    {
+      "id": 218,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift Circling the Globe",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1927
+    },
+    {
+      "id": 219,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Talking Pictures",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1928
+    },
+    {
+      "id": 220,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and House on Wheels",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1929
+    },
+    {
+      "id": 221,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Big Dirigible",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1930
+    },
+    {
+      "id": 222,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Sky Train",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1931
+    },
+    {
+      "id": 223,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Giant Magnet",
+      "bookAuthor": "Howard Garis",
+      "publicationDate": 1932
+    },
+    {
+      "id": 224,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Television Detector",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1933
+    },
+    {
+      "id": 225,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Ocean Airport",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1934
+    },
+    {
+      "id": 226,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Planet Stone",
+      "bookAuthor": "Harriet Stratemeyer Adams",
+      "publicationDate": 1935
+    },
+    {
+      "id": 227,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Giant Telescope",
+      "bookAuthor": "Thomas Moyston Mitchell",
+      "publicationDate": 1939
+    },
+    {
+      "id": 228,
+      "bookSeriesNameId": 5,
+      "bookName": "Tom Swift and His Magnetic Silencer",
+      "bookAuthor": "Thomas Moyston Mitchell",
+      "publicationDate": 1941
+    },
+    {
+      "id": 229,
+      "bookSeriesNameId": 6,
+      "bookName": "The Vanishing Shadow",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1932
+    },
+    {
+      "id": 230,
+      "bookSeriesNameId": 6,
+      "bookName": "The Haunted Attic",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1932
+    },
+    {
+      "id": 231,
+      "bookSeriesNameId": 6,
+      "bookName": "The Invisible Chimes",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1932
+    },
+    {
+      "id": 232,
+      "bookSeriesNameId": 6,
+      "bookName": "The Talking Snowman",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1997
+    },
+    {
+      "id": 233,
+      "bookSeriesNameId": 6,
+      "bookName": "Seven Strange Clues",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1932
+    },
+    {
+      "id": 234,
+      "bookSeriesNameId": 6,
+      "bookName": "The Ghost Parade",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1933
+    },
+    {
+      "id": 235,
+      "bookSeriesNameId": 6,
+      "bookName": "The Yellow Phantom",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1933
+    },
+    {
+      "id": 236,
+      "bookSeriesNameId": 6,
+      "bookName": "The Mystic Ball",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1934
+    },
+    {
+      "id": 237,
+      "bookSeriesNameId": 6,
+      "bookName": "The Voice in the Suitcase",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1935
+    },
+    {
+      "id": 238,
+      "bookSeriesNameId": 6,
+      "bookName": "The Mysterious Half Cat",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1936
+    },
+    {
+      "id": 239,
+      "bookSeriesNameId": 6,
+      "bookName": "The Riddle of the Double Ring",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1937
+    },
+    {
+      "id": 240,
+      "bookSeriesNameId": 6,
+      "bookName": "The Unfinished House",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1938
+    },
+    {
+      "id": 241,
+      "bookSeriesNameId": 6,
+      "bookName": "The Midnight Visitor",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1939
+    },
+    {
+      "id": 242,
+      "bookSeriesNameId": 6,
+      "bookName": "The Name on the Bracelet",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1940
+    },
+    {
+      "id": 243,
+      "bookSeriesNameId": 6,
+      "bookName": "The Clue in the Patchwork Quilt",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1941
+    },
+    {
+      "id": 244,
+      "bookSeriesNameId": 6,
+      "bookName": "The Mark on the Mirror",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1942
+    },
+    {
+      "id": 245,
+      "bookSeriesNameId": 6,
+      "bookName": "The Secret of the Barred WIndow",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1943
+    },
+    {
+      "id": 246,
+      "bookSeriesNameId": 6,
+      "bookName": "The Rainbow Riddle",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1946
+    },
+    {
+      "id": 247,
+      "bookSeriesNameId": 6,
+      "bookName": "The Living Portrait",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1947
+    },
+    {
+      "id": 248,
+      "bookSeriesNameId": 6,
+      "bookName": "The Secret of the Musical Tree",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1948
+    },
+    {
+      "id": 249,
+      "bookSeriesNameId": 6,
+      "bookName": "The Warning on the Window",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1949
+    },
+    {
+      "id": 250,
+      "bookSeriesNameId": 6,
+      "bookName": "The Clue of the Stone Lantern",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1950
+    },
+    {
+      "id": 251,
+      "bookSeriesNameId": 6,
+      "bookName": "The Spirit of Fog Island",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1951
+    },
+    {
+      "id": 252,
+      "bookSeriesNameId": 6,
+      "bookName": "The Black Cat's Clue",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1952
+    },
+    {
+      "id": 253,
+      "bookSeriesNameId": 6,
+      "bookName": "The Forbidden Chest",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1953
+    },
+    {
+      "id": 254,
+      "bookSeriesNameId": 6,
+      "bookName": "The Haunted Road",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1954
+    },
+    {
+      "id": 255,
+      "bookSeriesNameId": 6,
+      "bookName": "The Clue in the Ruined Castle",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1955
+    },
+    {
+      "id": 256,
+      "bookSeriesNameId": 6,
+      "bookName": "The Trail of the Green Doll",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1956
+    },
+    {
+      "id": 257,
+      "bookSeriesNameId": 6,
+      "bookName": "The Haunted Fountain",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1957
+    },
+    {
+      "id": 258,
+      "bookSeriesNameId": 6,
+      "bookName": "The Clue of the Broken Wing",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1958
+    },
+    {
+      "id": 259,
+      "bookSeriesNameId": 6,
+      "bookName": "The Phantom Friend",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1959
+    },
+    {
+      "id": 260,
+      "bookSeriesNameId": 6,
+      "bookName": "The Discovery at the Dragon's Mouth",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1960
+    },
+    {
+      "id": 261,
+      "bookSeriesNameId": 6,
+      "bookName": "The Whispered Watchword",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1961
+    },
+    {
+      "id": 262,
+      "bookSeriesNameId": 6,
+      "bookName": "The Secret Quest",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1962
+    },
+    {
+      "id": 263,
+      "bookSeriesNameId": 6,
+      "bookName": "The Puzzle in the Pond",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1963
+    },
+    {
+      "id": 264,
+      "bookSeriesNameId": 6,
+      "bookName": "The Hidden Clue",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1964
+    },
+    {
+      "id": 265,
+      "bookSeriesNameId": 6,
+      "bookName": "The Pledge of the Twin Knights",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1965
+    },
+    {
+      "id": 266,
+      "bookSeriesNameId": 6,
+      "bookName": "The Search for the Glowing Hand",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1966
+    },
+    {
+      "id": 267,
+      "bookSeriesNameId": 6,
+      "bookName": "The Secret at the Sand Castle",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 1967
+    },
+    {
+      "id": 268,
+      "bookSeriesNameId": 6,
+      "bookName": "The Strange Likeness",
+      "bookAuthor": "Margaret Sutton",
+      "publicationDate": 2012
+    },
+    {
+      "id": 269,
+      "bookSeriesNameId": 7,
+      "bookName": "Who Killed Mr. Boddy?",
+      "bookAuthor": "Eric Weiner",
+      "publicationDate": 1992
+    },
+    {
+      "id": 270,
+      "bookSeriesNameId": 7,
+      "bookName": "The Secret Secret Passage",
+      "bookAuthor": "Eric Weiner",
+      "publicationDate": 1992
+    },
+    {
+      "id": 271,
+      "bookSeriesNameId": 7,
+      "bookName": "The Case of the Invisible Cat",
+      "bookAuthor": "Eric Weiner",
+      "publicationDate": 1992
+    },
+    {
+      "id": 272,
+      "bookSeriesNameId": 7,
+      "bookName": "Mystery at the Masked Ball",
+      "bookAuthor": "Eric Weiner",
+      "publicationDate": 1993
+    },
+    {
+      "id": 273,
+      "bookSeriesNameId": 7,
+      "bookName": "Midnight Phone Calls",
+      "bookAuthor": "Eric Weiner",
+      "publicationDate": 1994
+    },
+    {
+      "id": 274,
+      "bookSeriesNameId": 7,
+      "bookName": "Booby-Trapped",
+      "bookAuthor": "Jahnna N. Malcolm",
+      "publicationDate": 1994
+    },
+    {
+      "id": 275,
+      "bookSeriesNameId": 7,
+      "bookName": "The Picture-Perfect Crime",
+      "bookAuthor": "Jahnna N. Malcolm",
+      "publicationDate": 1994
+    },
+    {
+      "id": 276,
+      "bookSeriesNameId": 7,
+      "bookName": "The Clue in the Shadows",
+      "bookAuthor": "Jahnna N. Malcolm",
+      "publicationDate": 1995
+    },
+    {
+      "id": 277,
+      "bookSeriesNameId": 7,
+      "bookName": "Mystery in the Moonlight",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1995
+    },
+    {
+      "id": 278,
+      "bookSeriesNameId": 7,
+      "bookName": "The Screaming Skeleton",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1995
+    },
+    {
+      "id": 279,
+      "bookSeriesNameId": 7,
+      "bookName": "Death by Candlelight",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 195
+    },
+    {
+      "id": 280,
+      "bookSeriesNameId": 7,
+      "bookName": "The Haunted Gargoyle",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1996
+    },
+    {
+      "id": 281,
+      "bookSeriesNameId": 7,
+      "bookName": "The Revenge of the Mummy",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1996
+    },
+    {
+      "id": 282,
+      "bookSeriesNameId": 7,
+      "bookName": "The Dangerous Diamond",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1996
+    },
+    {
+      "id": 283,
+      "bookSeriesNameId": 7,
+      "bookName": "The Vanishing Vampire",
+      "bookAuthor": "Marie Jacks",
+      "publicationDate": 1996
+    },
+    {
+      "id": 284,
+      "bookSeriesNameId": 7,
+      "bookName": "The Clue in the Crystal Ball",
+      "bookAuthor": "Dona Smith",
+      "publicationDate": 1997
+    },
+    {
+      "id": 285,
+      "bookSeriesNameId": 7,
+      "bookName": "Footprints in the Fog",
+      "bookAuthor": "Dona Smith",
+      "publicationDate": 1997
+    },
+    {
+      "id": 286,
+      "bookSeriesNameId": 8,
+      "bookName": "Silver Wings for Vicki",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1947
+    },
+    {
+      "id": 287,
+      "bookSeriesNameId": 8,
+      "bookName": "Vicki Finds the Answer",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1947
+    },
+    {
+      "id": 288,
+      "bookSeriesNameId": 8,
+      "bookName": "The Hidden Valley Mystery",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1948
+    },
+    {
+      "id": 289,
+      "bookSeriesNameId": 8,
+      "bookName": "The Secret of Magnolia Manor",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1949
+    },
+    {
+      "id": 290,
+      "bookSeriesNameId": 8,
+      "bookName": "The Clue of the Broken Blossom",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1950
+    },
+    {
+      "id": 291,
+      "bookSeriesNameId": 8,
+      "bookName": "Behind the White Veil",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1951
+    },
+    {
+      "id": 292,
+      "bookSeriesNameId": 8,
+      "bookName": "The Mystery at Hartwood House",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1952
+    },
+    {
+      "id": 293,
+      "bookSeriesNameId": 8,
+      "bookName": "Peril Over the Airport",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1953
+    },
+    {
+      "id": 294,
+      "bookSeriesNameId": 8,
+      "bookName": "The Mystery of the Vanishing Lady",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1954
+    },
+    {
+      "id": 295,
+      "bookSeriesNameId": 8,
+      "bookName": "The Search for the Missing Twin",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1954
+    },
+    {
+      "id": 296,
+      "bookSeriesNameId": 8,
+      "bookName": "The Ghost at the Waterfall",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1956
+    },
+    {
+      "id": 297,
+      "bookSeriesNameId": 8,
+      "bookName": "The Clue of the Gold Coin",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1958
+    },
+    {
+      "id": 298,
+      "bookSeriesNameId": 8,
+      "bookName": "The Silver Ring Mystery",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1960
+    },
+    {
+      "id": 299,
+      "bookSeriesNameId": 8,
+      "bookName": "The Clue of the Carved Ruby",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1961
+    },
+    {
+      "id": 300,
+      "bookSeriesNameId": 8,
+      "bookName": "The Mystery of Flight 908",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1962
+    },
+    {
+      "id": 301,
+      "bookSeriesNameId": 8,
+      "bookName": "The Brass Idol Mystery",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1964
+    },
+    {
+      "id": 302,
+      "bookSeriesNameId": 9,
+      "bookName": "The Secret of Skeleton Island",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1949
+    },
+    {
+      "id": 303,
+      "bookSeriesNameId": 9,
+      "bookName": "The Riddle of the Stone Elephant",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1949
+    },
+    {
+      "id": 304,
+      "bookSeriesNameId": 9,
+      "bookName": "The Black Thumb Mystery",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1950
+    },
+    {
+      "id": 305,
+      "bookSeriesNameId": 9,
+      "bookName": "The Clue of the Marked Claw",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1950
+    },
+    {
+      "id": 306,
+      "bookSeriesNameId": 9,
+      "bookName": "The Clue of the Coiled Cobra",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1951
+    },
+    {
+      "id": 307,
+      "bookSeriesNameId": 9,
+      "bookName": "The Secret of Hangman's Inn",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1951
+    },
+    {
+      "id": 308,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Iron Box",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1952
+    },
+    {
+      "id": 309,
+      "bookSeriesNameId": 9,
+      "bookName": "The Clue of the Phantom Car",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1953
+    },
+    {
+      "id": 310,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Galloping Horse",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1954
+    },
+    {
+      "id": 311,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Green Flame",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1955
+    },
+    {
+      "id": 312,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Grinning Tiger",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1956
+    },
+    {
+      "id": 313,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Vanishing Magician",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1956
+    },
+    {
+      "id": 314,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Shattered Glass",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1958
+    },
+    {
+      "id": 315,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Invisible Enemy",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1959
+    },
+    {
+      "id": 316,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of Gallows Cliff",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1960
+    },
+    {
+      "id": 317,
+      "bookSeriesNameId": 9,
+      "bookName": "The Clue of the Silver Scorpion",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1961
+    },
+    {
+      "id": 318,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Plumed Servent",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1962
+    },
+    {
+      "id": 319,
+      "bookSeriesNameId": 9,
+      "bookName": "The Mystery of the Sultan's Scimitar",
+      "bookAuthor": "Sam Epstein",
+      "publicationDate": 1963
+    },
+    {
+      "id": 320,
+      "bookSeriesNameId": 10,
+      "bookName": "Senior Nurse",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1944
+    },
+    {
+      "id": 321,
+      "bookSeriesNameId": 10,
+      "bookName": "Private Duty Nurse",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1946
+    },
+    {
+      "id": 322,
+      "bookSeriesNameId": 10,
+      "bookName": "Mountaineer Nurse",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1951
+    },
+    {
+      "id": 323,
+      "bookSeriesNameId": 10,
+      "bookName": "Visiting Nurse",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1947
+    },
+    {
+      "id": 324,
+      "bookSeriesNameId": 10,
+      "bookName": "Night Supervisor",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1950
+    },
+    {
+      "id": 325,
+      "bookSeriesNameId": 10,
+      "bookName": "Cruise Nurse",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1948
+    },
+    {
+      "id": 326,
+      "bookSeriesNameId": 10,
+      "bookName": "Army Nurse",
+      "bookAuthor": "Helen Wells",
+      "publicationDate": 1944
+    },
+    {
+      "id": 327,
+      "bookSeriesNameId": 10,
+      "bookName": "Country Doctor's Nurse",
+      "bookAuthor": "Julie Campbell Tatham",
+      "publicationDate": 1955
+    },
+    {
+      "id": 328,
+      "bookSeriesNameId": 11,
+      "bookName": "A Career for Kelly",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1963
+    },
+    {
+      "id": 329,
+      "bookSeriesNameId": 11,
+      "bookName": "First Assignment",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1963
+    },
+    {
+      "id": 330,
+      "bookSeriesNameId": 11,
+      "bookName": "A Very Special Girl",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1963
+    },
+    {
+      "id": 331,
+      "bookSeriesNameId": 11,
+      "bookName": "On Call for Trouble",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1964
+    },
+    {
+      "id": 332,
+      "bookSeriesNameId": 11,
+      "bookName": "Danger Island",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1964
+    },
+    {
+      "id": 333,
+      "bookSeriesNameId": 11,
+      "bookName": "Tracy's Little People",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1965
+    },
+    {
+      "id": 334,
+      "bookSeriesNameId": 11,
+      "bookName": "Olympic Duty",
+      "bookAuthor": "Virginia Bleecher McDonnell",
+      "publicationDate": 1965
+    },
+    {
+      "id": 335,
+      "bookSeriesNameId": 12,
+      "bookName": "Pitcher's Duel",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1950
+    },
+    {
+      "id": 336,
+      "bookSeriesNameId": 12,
+      "bookName": "Touchdown Pass",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1948
+    },
+    {
+      "id": 337,
+      "bookSeriesNameId": 12,
+      "bookName": "Clutch Hitter!",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1949
+    },
+    {
+      "id": 338,
+      "bookSeriesNameId": 12,
+      "bookName": "Strike Three!",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1949
+    },
+    {
+      "id": 339,
+      "bookSeriesNameId": 12,
+      "bookName": "Championship Ball",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1948
+    },
+    {
+      "id": 340,
+      "bookSeriesNameId": 12,
+      "bookName": "Pay-Off Pitch",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1958
+    },
+    {
+      "id": 341,
+      "bookSeriesNameId": 12,
+      "bookName": "Freshman Quarterback",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1952
+    },
+    {
+      "id": 342,
+      "bookSeriesNameId": 12,
+      "bookName": "Hoop Crazy",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1950
+    },
+    {
+      "id": 343,
+      "bookSeriesNameId": 12,
+      "bookName": "Triple-Threat Trouble",
+      "bookAuthor": "Clair Bee",
+      "publicationDate": 1960
+    },
+    {
+      "id": 344,
+      "bookSeriesNameId": 13,
+      "bookName": "Stranger in the Backfield",
+      "bookAuthor": "Wilfred McCormick",
+      "publicationDate": 1960
+    },
+    {
+      "id": 345,
+      "bookSeriesNameId": 13,
+      "bookName": "The Three Two Pitch",
+      "bookAuthor": "Wilfred McCormick",
+      "publicationDate": 1948
+    },
+    {
+      "id": 346,
+      "bookSeriesNameId": 13,
+      "bookName": "Fielder's Choice",
+      "bookAuthor": "Wilfred McCormick",
+      "publicationDate": 1949
+    },
+    {
+      "id": 347,
+      "bookSeriesNameId": 13,
+      "bookName": "The Go-Ahead Runner",
+      "bookAuthor": "Wilfred McCormick",
+      "publicationDate": 1965
+    },
+    {
+      "id": 348,
+      "bookSeriesNameId": 13,
+      "bookName": "Rambling Halfback",
+      "bookAuthor": "Wilfred McCormick",
+      "publicationDate": 1950
+    },
+    {
+      "id": 349,
+      "bookSeriesNameId": 14,
+      "bookName": "Peggy on the Road",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1963
+    },
+    {
+      "id": 350,
+      "bookSeriesNameId": 14,
+      "bookName": "Peggy Finds the Theater",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1962
+    },
+    {
+      "id": 351,
+      "bookSeriesNameId": 15,
+      "bookName": "The Gray Menace",
+      "bookAuthor": "Betty Cavanna",
+      "publicationDate": 1953
+    },
+    {
+      "id": 352,
+      "bookSeriesNameId": 15,
+      "bookName": "The Clue in the Blue",
+      "bookAuthor": "Betty Cavanna",
+      "publicationDate": 1948
+    },
+    {
+      "id": 353,
+      "bookSeriesNameId": 15,
+      "bookName": "Puzzle in Purple",
+      "bookAuthor": "Betty Cavanna",
+      "publicationDate": 1948
+    },
+    {
+      "id": 354,
+      "bookSeriesNameId": 16,
+      "bookName": "At the Seashore",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1963
+    },
+    {
+      "id": 355,
+      "bookSeriesNameId": 16,
+      "bookName": "At the Seashore",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1950
+    },
+    {
+      "id": 356,
+      "bookSeriesNameId": 16,
+      "bookName": "Search in the Great City",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1960
+    },
+    {
+      "id": 357,
+      "bookSeriesNameId": 16,
+      "bookName": "Toy Shop",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1948
+    },
+    {
+      "id": 358,
+      "bookSeriesNameId": 16,
+      "bookName": "And the Horseshoe Riddle",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1953
+    },
+    {
+      "id": 359,
+      "bookSeriesNameId": 16,
+      "bookName": "Big Adventure at Home",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1960
+    },
+    {
+      "id": 360,
+      "bookSeriesNameId": 16,
+      "bookName": "In the Mystery Cave",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1960
+    },
+    {
+      "id": 361,
+      "bookSeriesNameId": 16,
+      "bookName": "At London Tower",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1959
+    },
+    {
+      "id": 362,
+      "bookSeriesNameId": 16,
+      "bookName": "Of Lakeport",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1961
+    },
+    {
+      "id": 363,
+      "bookSeriesNameId": 16,
+      "bookName": "Camping Out",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1951
+    },
+    {
+      "id": 364,
+      "bookSeriesNameId": 16,
+      "bookName": "On a Houseboat",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1955
+    },
+    {
+      "id": 365,
+      "bookSeriesNameId": 16,
+      "bookName": "The Bobbsey Twins at Lighthouse Point",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1939
+    },
+    {
+      "id": 366,
+      "bookSeriesNameId": 16,
+      "bookName": "Own Little Railroad",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1951
+    },
+    {
+      "id": 367,
+      "bookSeriesNameId": 16,
+      "bookName": "At the Seashore",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1950
+    },
+    {
+      "id": 368,
+      "bookSeriesNameId": 16,
+      "bookName": "In the Country",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1950
+    },
+    {
+      "id": 369,
+      "bookSeriesNameId": 16,
+      "bookName": "At Whitesail Harbour",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1952
+    },
+    {
+      "id": 370,
+      "bookSeriesNameId": 16,
+      "bookName": "At Big Bear Pond",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1958
+    },
+    {
+      "id": 371,
+      "bookSeriesNameId": 16,
+      "bookName": "In the Land of Cotton",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1942
+    },
+    {
+      "id": 372,
+      "bookSeriesNameId": 16,
+      "bookName": "At Snow Lodge",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1941
+    },
+    {
+      "id": 373,
+      "bookSeriesNameId": 16,
+      "bookName": "At School",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1941
+    },
+    {
+      "id": 374,
+      "bookSeriesNameId": 16,
+      "bookName": "At School",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1941
+    },
+    {
+      "id": 375,
+      "bookSeriesNameId": 16,
+      "bookName": "At the Seashore",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1954
+    },
+    {
+      "id": 376,
+      "bookSeriesNameId": 16,
+      "bookName": "Merry Days Indoors and Out",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1950
+    },
+    {
+      "id": 377,
+      "bookSeriesNameId": 17,
+      "bookName": "Stand By for Mars",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1952
+    },
+    {
+      "id": 378,
+      "bookSeriesNameId": 17,
+      "bookName": "Danger in Deep Space",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1953
+    },
+    {
+      "id": 379,
+      "bookSeriesNameId": 17,
+      "bookName": "On the Trail of the Space Pirates",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1953
+    },
+    {
+      "id": 380,
+      "bookSeriesNameId": 17,
+      "bookName": "The Space Pioneers",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1953
+    },
+    {
+      "id": 381,
+      "bookSeriesNameId": 17,
+      "bookName": "The Revolt on Venus",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1954
+    },
+    {
+      "id": 382,
+      "bookSeriesNameId": 17,
+      "bookName": "Treachery in Outer Space",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1954
+    },
+    {
+      "id": 383,
+      "bookSeriesNameId": 17,
+      "bookName": "Sabotage in Space",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1955
+    },
+    {
+      "id": 384,
+      "bookSeriesNameId": 17,
+      "bookName": "The Robot Rocket",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1956
+    },
+    {
+      "id": 385,
+      "bookSeriesNameId": 18,
+      "bookName": "The Lone Ranger and the Mystery Ranch",
+      "bookAuthor": "Fran Striker",
+      "publicationDate": 1938
+    },
+    {
+      "id": 386,
+      "bookSeriesNameId": 19,
+      "bookName": "The Mystery of the Blue Pelican",
+      "bookAuthor": "Nicolete Meredith Stack",
+      "publicationDate": 1966
+    },
+    {
+      "id": 387,
+      "bookSeriesNameId": 19,
+      "bookName": "The Mystery of Glengary Castle",
+      "bookAuthor": "Nicolete Meredith Stack",
+      "publicationDate": 1966
+    },
+    {
+      "id": 388,
+      "bookSeriesNameId": 19,
+      "bookName": "The Candle Shop Mystery",
+      "bookAuthor": "Nicolete Meredith Stack",
+      "publicationDate": 1967
+    },
+    {
+      "id": 389,
+      "bookSeriesNameId": 19,
+      "bookName": "Mystery in the Clouds",
+      "bookAuthor": "Nicolete Meredith Stack",
+      "publicationDate": 1971
+    },
+    {
+      "id": 390,
+      "bookSeriesNameId": 20,
+      "bookName": "By the Light of the Study Lamp",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1934
+    },
+    {
+      "id": 391,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret at Lone Tree Cottage",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1934
+    },
+    {
+      "id": 392,
+      "bookSeriesNameId": 20,
+      "bookName": "In the Shadow of the Tower",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1934
+    },
+    {
+      "id": 393,
+      "bookSeriesNameId": 20,
+      "bookName": "A Three-Cornered Mystery",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1935
+    },
+    {
+      "id": 394,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret at the Hermitage",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1936
+    },
+    {
+      "id": 395,
+      "bookSeriesNameId": 20,
+      "bookName": "The Circle of Footprints",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1937
+    },
+    {
+      "id": 396,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mystery of the Locked Room",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1938
+    },
+    {
+      "id": 397,
+      "bookSeriesNameId": 20,
+      "bookName": "The Clue in the Cobweb",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1939
+    },
+    {
+      "id": 398,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret at the Gatehouse",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1940
+    },
+    {
+      "id": 399,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mysterious Fireplace",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1941
+    },
+    {
+      "id": 400,
+      "bookSeriesNameId": 20,
+      "bookName": "The Clue of the Rusty Key",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1942
+    },
+    {
+      "id": 401,
+      "bookSeriesNameId": 20,
+      "bookName": "The Portrait in the Sand",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1943
+    },
+    {
+      "id": 402,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret in the Old Well",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1944
+    },
+    {
+      "id": 403,
+      "bookSeriesNameId": 20,
+      "bookName": "The Clue in the Ivy",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1952
+    },
+    {
+      "id": 404,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Jade Ring",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1953
+    },
+    {
+      "id": 405,
+      "bookSeriesNameId": 20,
+      "bookName": "Mystery at the Crossroads",
+      "bookAuthor": "Mildred Wirt Benson",
+      "publicationDate": 1954
+    },
+    {
+      "id": 406,
+      "bookSeriesNameId": 20,
+      "bookName": "The Ghost in the Gallery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1955
+    },
+    {
+      "id": 407,
+      "bookSeriesNameId": 20,
+      "bookName": "The Clue of the Black Flower",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1956
+    },
+    {
+      "id": 408,
+      "bookSeriesNameId": 20,
+      "bookName": "The Winking Ruby Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1957
+    },
+    {
+      "id": 409,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Swiss Chalet",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1958
+    },
+    {
+      "id": 410,
+      "bookSeriesNameId": 20,
+      "bookName": "The Haunted Lagoon",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1959
+    },
+    {
+      "id": 411,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mystery of the Bamboo Bird",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1960
+    },
+    {
+      "id": 412,
+      "bookSeriesNameId": 20,
+      "bookName": "The Sierra Gold Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1961
+    },
+    {
+      "id": 413,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of Lost Lake",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1962
+    },
+    {
+      "id": 414,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mystery of the Stone Tiger",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1963
+    },
+    {
+      "id": 415,
+      "bookSeriesNameId": 20,
+      "bookName": "The Riddle of the Frozen Fountain",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1964
+    },
+    {
+      "id": 416,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Silver Dolphin",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1965
+    },
+    {
+      "id": 417,
+      "bookSeriesNameId": 20,
+      "bookName": "Mystery of the Wax Queen",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1966
+    },
+    {
+      "id": 418,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Minstrel's Guitar",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1967
+    },
+    {
+      "id": 419,
+      "bookSeriesNameId": 20,
+      "bookName": "The Phantom Surfer",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1968
+    },
+    {
+      "id": 420,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mystery of the Stone Tiger",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 421,
+      "bookSeriesNameId": 20,
+      "bookName": "The Riddle of the Frozen Fountain",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 422,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Silver Dolphin",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 423,
+      "bookSeriesNameId": 20,
+      "bookName": "Mystery of the Wax Queen",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 424,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Minstrel's Guitar",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 425,
+      "bookSeriesNameId": 20,
+      "bookName": "The Phantom Surfer",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1972
+    },
+    {
+      "id": 426,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of the Swiss Chalet",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1973
+    },
+    {
+      "id": 427,
+      "bookSeriesNameId": 20,
+      "bookName": "The Haunted Lagoon",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1973
+    },
+    {
+      "id": 428,
+      "bookSeriesNameId": 20,
+      "bookName": "The Mystery of the Bamboo Bird",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1973
+    },
+    {
+      "id": 429,
+      "bookSeriesNameId": 20,
+      "bookName": "The Sierra Gold Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1973
+    },
+    {
+      "id": 430,
+      "bookSeriesNameId": 20,
+      "bookName": "The Secret of Lost Lake",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1974
+    },
+    {
+      "id": 431,
+      "bookSeriesNameId": 20,
+      "bookName": "The Winking Ruby Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1974
+    },
+    {
+      "id": 432,
+      "bookSeriesNameId": 20,
+      "bookName": "The Ghost in the Gallery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1975
+    },
+    {
+      "id": 433,
+      "bookSeriesNameId": 20,
+      "bookName": "The Curious Coronation",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1976
+    },
+    {
+      "id": 434,
+      "bookSeriesNameId": 20,
+      "bookName": "The Hundred-Year Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1977
+    },
+    {
+      "id": 435,
+      "bookSeriesNameId": 20,
+      "bookName": "Mountain-Peak Mystery",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1978
+    },
+    {
+      "id": 436,
+      "bookSeriesNameId": 20,
+      "bookName": "The Witch's Omen",
+      "bookAuthor": "Unknown",
+      "publicationDate": 1979
+    },
+    {
+      "id": 437,
+      "bookSeriesNameId": 21,
+      "bookName": "The Secret of Terror Castle",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1964
+    },
+    {
+      "id": 438,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Whispering Mummy ",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1965
+    },
+    {
+      "id": 439,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Green Ghost ",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1965
+    },
+    {
+      "id": 440,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Vanishing Treasure ",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1966
+    },
+    {
+      "id": 441,
+      "bookSeriesNameId": 21,
+      "bookName": "The Secret of Skeleton Island ",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1966
+    },
+    {
+      "id": 442,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Fiery Eye ",
+      "bookAuthor": "Robert Arthur",
+      "publicationDate": 1967
+    },
+    {
+      "id": 443,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Moaning Cave ",
+      "bookAuthor": "William Arden",
+      "publicationDate": 1968
+    },
+    {
+      "id": 444,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Nervous Lion ",
+      "bookAuthor": "Nick West",
+      "publicationDate": 1971
+    },
+    {
+      "id": 445,
+      "bookSeriesNameId": 21,
+      "bookName": "The Secret of the Haunted Mirror ",
+      "bookAuthor": "M. V. Carey",
+      "publicationDate": 1974
+    },
+    {
+      "id": 446,
+      "bookSeriesNameId": 21,
+      "bookName": "The Mystery of the Dead Man's Riddle ",
+      "bookAuthor": "William Arden",
+      "publicationDate": 1974
+    },
+    {
+      "id": 447,
+      "bookSeriesNameId": 22,
+      "bookName": "The Secret of Thunder Mountain ",
+      "bookAuthor": "Fran Striker",
+      "publicationDate": 1952
+    },
+    {
+      "id": 448,
+      "bookSeriesNameId": 22,
+      "bookName": "Sign of the Spiral ",
+      "bookAuthor": "Fran Striker",
+      "publicationDate": 1947
+    },
+    {
+      "id": 449,
+      "bookSeriesNameId": 23,
+      "bookName": "X Marks the Spy",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1967
+    },
+    {
+      "id": 450,
+      "bookSeriesNameId": 23,
+      "bookName": "Mission: Moonfire",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1967
+    },
+    {
+      "id": 451,
+      "bookSeriesNameId": 23,
+      "bookName": "Department of Danger",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1967
+    },
+    {
+      "id": 452,
+      "bookSeriesNameId": 23,
+      "bookName": "Ace of Shadows",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1967
+    },
+    {
+      "id": 453,
+      "bookSeriesNameId": 23,
+      "bookName": "Heads You Lose",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1968
+    },
+    {
+      "id": 454,
+      "bookSeriesNameId": 23,
+      "bookName": "Trial By Fire",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": 1969
+    }
+  ]
 }
-    
