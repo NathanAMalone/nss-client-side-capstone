@@ -129,14 +129,14 @@
   ],
   "ownedBooks": [
     {
-      "id": 1,
-      "userId": 1,
-      "bookId": 8,
       "bookThoughts": "Best of the series!",
       "dustJacket": true,
+      "bookId": 8,
+      "userId": 1,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 1
     },
     {
       "id": 2,
@@ -259,8 +259,8 @@
       "bookImage": ""
     },
     {
-      "bookThoughts": " fun to go to the mooon.",
-      "dustJacket": false,
+      "bookThoughts": "Always fun to go to the moon!.",
+      "dustJacket": true,
       "bookId": 167,
       "userId": 3,
       "ableToLoan": false,
@@ -400,11 +400,11 @@
       "publicationDate": 1929
     },
     {
-      "id": 8,
       "bookSeriesNameId": 1,
       "bookName": "The Mystery of Cabin Island",
       "bookAuthor": "Leslie McFarlane",
-      "publicationDate": 1929
+      "publicationDate": 1929,
+      "id": 8
     },
     {
       "id": 9,
@@ -1513,10 +1513,10 @@
       "publicationDate": 1958
     },
     {
-      "bookSeriesNameId": 8,
-      "bookName": "Tom Swift in the ",
-      "bookAuthor": " Lawrence",
-      "publicationDate": "1948",
+      "bookSeriesNameId": 4,
+      "bookName": "Tom Swift in the Race to the Moon",
+      "bookAuthor": "James Lawrence",
+      "publicationDate": "1958",
       "id": 167
     },
     {
