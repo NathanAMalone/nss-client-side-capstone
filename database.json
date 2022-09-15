@@ -347,16 +347,6 @@
       "ableToLoan": false,
       "isClaimed": false,
       "bookImage": ""
-    },
-    {
-      "bookThoughts": "test",
-      "dustJacket": false,
-      "userId": 3,
-      "ableToLoan": false,
-      "isClaimed": false,
-      "bookImage": "",
-      "bookId": 455,
-      "id": 23
     }
   ],
   "books": [
@@ -963,10 +953,10 @@
       "publicationDate": 1943
     },
     {
-      "bookSeriesNameId": 1,
+      "bookSeriesNameId": 2,
       "bookName": "The Secret in the Old Attic",
       "bookAuthor": "Mildred Wirt Benson",
-      "publicationDate": 1994,
+      "publicationDate": 1944,
       "id": 87
     },
     {
@@ -3537,13 +3527,6 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
-    },
-    {
-      "bookSeriesNameId": 9,
-      "bookName": "test",
-      "bookAuthor": "test",
-      "publicationDate": 1990,
-      "id": 455
     }
   ]
 }
