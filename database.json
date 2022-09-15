@@ -269,24 +269,24 @@
       "id": 14
     },
     {
-      "id": 15,
-      "userId": 3,
-      "bookId": 37,
       "bookThoughts": "Not too bad.",
       "dustJacket": true,
+      "bookId": 37,
+      "userId": 3,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 15
     },
     {
-      "id": 16,
-      "userId": 3,
-      "bookId": 87,
       "bookThoughts": "Creepy old house story!",
       "dustJacket": false,
+      "bookId": 87,
+      "userId": 3,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 16
     },
     {
       "id": 17,
@@ -603,11 +603,11 @@
       "publicationDate": 1956
     },
     {
-      "id": 37,
       "bookSeriesNameId": 1,
       "bookName": "The Ghost at Skeleton Rock",
       "bookAuthor": "James Lawrence",
-      "publicationDate": 1957
+      "publicationDate": 1957,
+      "id": 37
     },
     {
       "id": 38,
@@ -953,11 +953,11 @@
       "publicationDate": 1943
     },
     {
-      "id": 87,
       "bookSeriesNameId": 2,
       "bookName": "The Secret in the Old Attic",
       "bookAuthor": "Mildred Wirt Benson",
-      "publicationDate": 1944
+      "publicationDate": 1944,
+      "id": 87
     },
     {
       "id": 88,
@@ -1516,7 +1516,7 @@
       "bookSeriesNameId": 4,
       "bookName": "Tom Swift in the Race to the Moon",
       "bookAuthor": "James Lawrence",
-      "publicationDate": "1958",
+      "publicationDate": 1958,
       "id": 167
     },
     {
