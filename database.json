@@ -260,7 +260,7 @@
     },
     {
       "bookThoughts": "Always fun to go to the moon!.",
-      "dustJacket": true,
+      "dustJacket": false,
       "bookId": 167,
       "userId": 3,
       "ableToLoan": false,
@@ -1516,7 +1516,7 @@
       "bookSeriesNameId": 4,
       "bookName": "Tom Swift in the Race to the Moon",
       "bookAuthor": "James Lawrence",
-      "publicationDate": "1958",
+      "publicationDate": 1958,
       "id": 167
     },
     {
