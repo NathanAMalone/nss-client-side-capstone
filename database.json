@@ -144,7 +144,7 @@
       "bookId": 35,
       "bookThoughts": "Pretty good for a later book in the series.",
       "dustJacket": false,
-      "ableToLoan": false,
+      "ableToLoan": true,
       "isClaimed": false,
       "bookImage": ""
     },
@@ -283,30 +283,30 @@
       "dustJacket": false,
       "bookId": 87,
       "userId": 3,
-      "ableToLoan": false,
+      "ableToLoan": true,
       "isClaimed": false,
       "bookImage": "",
       "id": 16
     },
     {
-      "id": 17,
-      "userId": 3,
-      "bookId": 93,
       "bookThoughts": "Sailing the seas!",
       "dustJacket": false,
-      "ableToLoan": false,
+      "bookId": 93,
+      "userId": 3,
+      "ableToLoan": true,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 17
     },
     {
-      "id": 18,
-      "userId": 3,
-      "bookId": 141,
       "bookThoughts": "Quite thrilling.",
       "dustJacket": true,
-      "ableToLoan": false,
+      "bookId": 141,
+      "userId": 3,
+      "ableToLoan": true,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 18
     },
     {
       "id": 19,
