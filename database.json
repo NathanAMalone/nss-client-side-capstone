@@ -283,7 +283,7 @@
       "dustJacket": false,
       "bookId": 87,
       "userId": 3,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
       "id": 16
@@ -293,7 +293,7 @@
       "dustJacket": false,
       "bookId": 93,
       "userId": 3,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
       "id": 17
@@ -303,7 +303,7 @@
       "dustJacket": true,
       "bookId": 141,
       "userId": 3,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
       "id": 18
