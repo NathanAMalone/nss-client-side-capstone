@@ -33,6 +33,7 @@
       "isAdmin": false
     }
   ],
+  "messages": [],
   "bookSeriesNames": [
     {
       "id": 1,
@@ -136,17 +137,21 @@
       "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
       "id": 1
     },
     {
-      "id": 2,
-      "userId": 1,
-      "bookId": 35,
       "bookThoughts": "Pretty good for a later book in the series.",
       "dustJacket": false,
+      "bookId": 35,
+      "userId": 1,
       "ableToLoan": true,
-      "isClaimed": false,
-      "bookImage": ""
+      "isClaimed": true,
+      "bookImage": "",
+      "borrowerName": "Peter Pippen",
+      "approved": false,
+      "id": 2
     },
     {
       "id": 3,
@@ -156,7 +161,9 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 4,
@@ -166,7 +173,9 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 5,
@@ -176,7 +185,9 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 6,
@@ -186,7 +197,9 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 7,
@@ -196,7 +209,9 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 8,
@@ -206,17 +221,20 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
-      "id": 9,
-      "userId": 2,
-      "bookId": 3,
       "bookThoughts": "Catching counterfeiters!",
       "dustJacket": true,
-      "ableToLoan": false,
-      "isClaimed": false,
-      "bookImage": ""
+      "bookId": 3,
+      "userId": 2,
+      "ableToLoan": true,
+      "isClaimed": true,
+      "bookImage": "",
+      "borrowerName": "Lauren Longfellow",
+      "id": 9
     },
     {
       "id": 10,
@@ -226,27 +244,29 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
-      "id": 11,
-      "userId": 2,
-      "bookId": 9,
       "bookThoughts": "Back when airplanes were new and exciting.",
       "dustJacket": true,
-      "ableToLoan": false,
+      "bookId": 9,
+      "userId": 2,
+      "ableToLoan": true,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 11
     },
     {
-      "id": 12,
-      "userId": 2,
-      "bookId": 12,
       "bookThoughts": "Their father left the footprints; he has small feet....",
       "dustJacket": true,
-      "ableToLoan": false,
+      "bookId": 12,
+      "userId": 2,
+      "ableToLoan": true,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "id": 12
     },
     {
       "id": 13,
@@ -256,16 +276,20 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "bookThoughts": "Always fun to go to the moon!.",
       "dustJacket": true,
       "bookId": 167,
       "userId": 3,
-      "ableToLoan": false,
-      "isClaimed": false,
+      "ableToLoan": true,
+      "isClaimed": true,
       "bookImage": "",
+      "borrowerName": "Matty Mason",
+      "approved": false,
       "id": 14
     },
     {
@@ -273,7 +297,7 @@
       "dustJacket": true,
       "bookId": 37,
       "userId": 3,
-      "ableToLoan": false,
+      "ableToLoan": true,
       "isClaimed": false,
       "bookImage": "",
       "id": 15
@@ -286,6 +310,8 @@
       "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
       "id": 16
     },
     {
@@ -296,6 +322,8 @@
       "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
       "id": 17
     },
     {
@@ -306,6 +334,8 @@
       "ableToLoan": false,
       "isClaimed": false,
       "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
       "id": 18
     },
     {
@@ -316,7 +346,9 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 20,
@@ -326,7 +358,9 @@
       "dustJacket": true,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 21,
@@ -336,7 +370,9 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     },
     {
       "id": 22,
@@ -346,7 +382,9 @@
       "dustJacket": false,
       "ableToLoan": false,
       "isClaimed": false,
-      "bookImage": ""
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false
     }
   ],
   "books": [
