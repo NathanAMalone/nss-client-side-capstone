@@ -4,7 +4,7 @@
       "id": 1,
       "fullName": "Lauren Longfellow",
       "email": "Lauren@Longfellow.com",
-      "membershipDate": "09-12-2022",
+      "membershipDate": "9-12-2022",
       "userAddress": "100 Green St",
       "isAdmin": false
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "fullName": "Matty Mason",
       "email": "Matty@Mason.com",
-      "membershipDate": "08-18-2022",
+      "membershipDate": "8-18-2022",
       "userAddress": "1325 Steekee St",
       "isAdmin": false
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "fullName": "Peter Pippen",
       "email": "Peter@Pippen.com",
-      "membershipDate": "08-24-2022",
+      "membershipDate": "8-24-2022",
       "userAddress": "200 Chahyga Ln",
       "isAdmin": true
     },
@@ -28,12 +28,11 @@
       "id": 4,
       "fullName": "Brandy Brazen",
       "email": "Brandy@Brazen.com",
-      "membershipDate": "08-30-2022",
+      "membershipDate": "8-30-2022",
       "userAddress": "120 Cheeskogili Dr",
       "isAdmin": false
     }
   ],
-  "messages": [],
   "bookSeriesNames": [
     {
       "id": 1,
@@ -134,11 +133,16 @@
       "dustJacket": true,
       "bookId": 8,
       "userId": 1,
-      "ableToLoan": false,
+      "ableToLoan": true,
+      "ableToLoanDate": "9-19-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 1
     },
     {
@@ -147,10 +151,15 @@
       "bookId": 35,
       "userId": 1,
       "ableToLoan": true,
-      "isClaimed": true,
+      "ableToLoanDate": "9-19-2022",
+      "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "Peter Pippen",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 2
     },
     {
@@ -160,10 +169,15 @@
       "bookThoughts": "My first Rick Brant; Quite fun adventure in D.C.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "7-21-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 4,
@@ -172,10 +186,15 @@
       "bookThoughts": "Good mystery, although a little obvious how the floor disappears.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "8-16-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 5,
@@ -184,10 +203,15 @@
       "bookThoughts": "The cover is fantastic!",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "9-2-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 6,
@@ -196,10 +220,15 @@
       "bookThoughts": "Pretty enjoyable.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "7-24-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 7,
@@ -208,10 +237,15 @@
       "bookThoughts": "First adventure of the series.",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "7-18-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 8,
@@ -220,10 +254,15 @@
       "bookThoughts": "Fun romp into sapce.",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "8-22-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "bookThoughts": "Catching counterfeiters!",
@@ -231,9 +270,15 @@
       "bookId": 3,
       "userId": 2,
       "ableToLoan": true,
+      "ableToLoanDate": "8-3-2022",
       "isClaimed": true,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "Lauren Longfellow",
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 9
     },
     {
@@ -243,19 +288,31 @@
       "bookThoughts": "A little predictable.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "9-12-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "bookThoughts": "Back when airplanes were new and exciting.",
       "dustJacket": true,
       "bookId": 9,
       "userId": 2,
-      "ableToLoan": true,
-      "isClaimed": false,
+      "ableToLoan": false,
+      "ableToLoanDate": "9-19-2022",
+      "isClaimed": true,
+      "isClaimedDate": "9-19-2022",
       "bookImage": "",
+      "borrowerName": "Lauren Longfellow",
+      "approved": true,
+      "approvedDate": "9-19-2022",
+      "returnedDate": "",
+      "prevBorrowerName": "Lauren Longfellow",
       "id": 11
     },
     {
@@ -264,8 +321,15 @@
       "bookId": 12,
       "userId": 2,
       "ableToLoan": true,
+      "ableToLoanDate": "6-20-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 12
     },
     {
@@ -275,10 +339,15 @@
       "bookThoughts": "Good introduction to Nancy Drew.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "7-23-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "bookThoughts": "Always fun to go to the moon!.",
@@ -286,10 +355,15 @@
       "bookId": 167,
       "userId": 3,
       "ableToLoan": true,
-      "isClaimed": true,
+      "ableToLoanDate": "9-19-2022",
+      "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
-      "borrowerName": "Matty Mason",
+      "borrowerName": "Brandy Brazen",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "9-19-2022",
+      "prevBorrowerName": "Brandy Brazen",
       "id": 14
     },
     {
@@ -298,8 +372,15 @@
       "bookId": 37,
       "userId": 3,
       "ableToLoan": true,
+      "ableToLoanDate": "9-19-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
+      "borrowerName": "",
+      "approved": "",
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 15
     },
     {
@@ -308,10 +389,15 @@
       "bookId": 87,
       "userId": 3,
       "ableToLoan": false,
+      "ableToLoanDate": "9-1-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 16
     },
     {
@@ -320,10 +406,15 @@
       "bookId": 93,
       "userId": 3,
       "ableToLoan": false,
+      "ableToLoanDate": "8-12-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 17
     },
     {
@@ -332,10 +423,15 @@
       "bookId": 141,
       "userId": 3,
       "ableToLoan": false,
+      "ableToLoanDate": "8-5-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
       "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
       "id": 18
     },
     {
@@ -345,10 +441,15 @@
       "bookThoughts": "Train Trip!",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "6-30-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 20,
@@ -357,10 +458,15 @@
       "bookThoughts": "Read this in one sitting.",
       "dustJacket": true,
       "ableToLoan": false,
+      "ableToLoanDate": "7-19-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 21,
@@ -369,10 +475,15 @@
       "bookThoughts": "Had to force myself to finish this one.",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "7-31-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     },
     {
       "id": 22,
@@ -381,10 +492,15 @@
       "bookThoughts": "Kept my attention.",
       "dustJacket": false,
       "ableToLoan": false,
+      "ableToLoanDate": "8-28-2022",
       "isClaimed": false,
+      "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "",
-      "approved": false
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": ""
     }
   ],
   "books": [
