@@ -155,7 +155,7 @@
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
-      "borrowerName": "Peter Pippen",
+      "borrowerName": "",
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
@@ -372,7 +372,7 @@
       "bookId": 37,
       "userId": 3,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-19",
+      "ableToLoanDate": "2022-9-20",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
@@ -426,7 +426,7 @@
       "ableToLoanDate": "2022-8-5",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "../bookImages/hb001bTowerTreasure.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
@@ -501,6 +501,23 @@
       "approvedDate": "",
       "returnedDate": "",
       "prevBorrowerName": ""
+    },
+    {
+      "bookThoughts": "test",
+      "dustJacket": false,
+      "userId": 3,
+      "ableToLoan": false,
+      "ableToLoanDate": "2022-9-20",
+      "isClaimed": false,
+      "isClaimedDate": "",
+      "bookImage": "C:\\fakepath\\tsj19xTriphibianAtomicar.jpg",
+      "borrowerName": "",
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
+      "bookId": 455,
+      "id": 23
     }
   ],
   "books": [
@@ -3681,6 +3698,13 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
+    },
+    {
+      "bookSeriesNameId": 2,
+      "bookName": "test",
+      "bookAuthor": "test",
+      "publicationDate": 1952,
+      "id": 455
     }
   ]
 }
