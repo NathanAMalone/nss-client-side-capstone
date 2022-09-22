@@ -358,7 +358,7 @@
       "ableToLoanDate": "2022-9-19",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "https://res.cloudinary.com/diyercxq0/image/upload/v1663872845/dygpj3ca8q9urbwvbqmt.jpg",
       "borrowerName": "Brandy Brazen",
       "approved": false,
       "approvedDate": "",
@@ -371,11 +371,11 @@
       "dustJacket": true,
       "bookId": 37,
       "userId": 3,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "ableToLoanDate": "2022-9-20",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663879795/ibjxzk4xwacacwptdjob.jpg",
       "borrowerName": "",
       "approved": "",
       "approvedDate": "",
@@ -426,7 +426,7 @@
       "ableToLoanDate": "2022-8-5",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "../bookImages/hb001bTowerTreasure.jpg",
+      "bookImage": "",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
@@ -501,23 +501,6 @@
       "approvedDate": "",
       "returnedDate": "",
       "prevBorrowerName": ""
-    },
-    {
-      "bookThoughts": "test",
-      "dustJacket": false,
-      "userId": 3,
-      "ableToLoan": false,
-      "ableToLoanDate": "2022-9-20",
-      "isClaimed": false,
-      "isClaimedDate": "",
-      "bookImage": "C:\\fakepath\\tsj19xTriphibianAtomicar.jpg",
-      "borrowerName": "",
-      "approved": false,
-      "approvedDate": "",
-      "returnedDate": "",
-      "prevBorrowerName": "",
-      "bookId": 455,
-      "id": 23
     }
   ],
   "books": [
@@ -3698,13 +3681,6 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
-    },
-    {
-      "bookSeriesNameId": 2,
-      "bookName": "test",
-      "bookAuthor": "test",
-      "publicationDate": 1952,
-      "id": 455
     }
   ]
 }
