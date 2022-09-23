@@ -4,7 +4,7 @@
       "id": 1,
       "fullName": "Lauren Longfellow",
       "email": "Lauren@Longfellow.com",
-      "membershipDate": "9-12-2022",
+      "membershipDate": "2022-9-12",
       "userAddress": "100 Green St",
       "isAdmin": false
     },
@@ -12,25 +12,25 @@
       "id": 2,
       "fullName": "Matty Mason",
       "email": "Matty@Mason.com",
-      "membershipDate": "8-18-2022",
+      "membershipDate": "2022-8-18",
       "userAddress": "1325 Steekee St",
       "isAdmin": false
     },
     {
-      "id": 3,
       "fullName": "Peter Pippen",
       "email": "Peter@Pippen.com",
-      "membershipDate": "8-24-2022",
+      "membershipDate": "2022-8-24",
       "userAddress": "200 Chahyga Ln",
-      "isAdmin": true
+      "isAdmin": true,
+      "id": 3
     },
     {
-      "id": 4,
       "fullName": "Brandy Brazen",
       "email": "Brandy@Brazen.com",
-      "membershipDate": "8-30-2022",
+      "membershipDate": "2022-8-30",
       "userAddress": "120 Cheeskogili Dr",
-      "isAdmin": false
+      "isAdmin": true,
+      "id": 4
     }
   ],
   "bookSeriesNames": [
@@ -133,11 +133,11 @@
       "dustJacket": true,
       "bookId": 8,
       "userId": 1,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "ableToLoanDate": "2022-9-19",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663881877/gmcbxjux9sxaqa4hn8qu.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
@@ -151,10 +151,10 @@
       "bookId": 35,
       "userId": 1,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-19",
+      "ableToLoanDate": "2022-9-22",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663883157/bsasqoptqkexijeavyba.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
@@ -197,21 +197,21 @@
       "prevBorrowerName": ""
     },
     {
-      "id": 5,
-      "userId": 1,
-      "bookId": 174,
       "bookThoughts": "The cover is fantastic!",
       "dustJacket": false,
+      "bookId": 174,
+      "userId": 1,
       "ableToLoan": false,
       "ableToLoanDate": "2022-9-2",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663881922/egiuxapemb3hql9zdpvy.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
-      "prevBorrowerName": ""
+      "prevBorrowerName": "",
+      "id": 5
     },
     {
       "id": 6,
@@ -282,21 +282,21 @@
       "id": 9
     },
     {
-      "id": 10,
-      "userId": 2,
-      "bookId": 234,
       "bookThoughts": "A little predictable.",
       "dustJacket": true,
+      "bookId": 234,
+      "userId": 2,
       "ableToLoan": false,
       "ableToLoanDate": "2022-9-12",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663882227/snosdknslukraem3vljb.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
-      "prevBorrowerName": ""
+      "prevBorrowerName": "",
+      "id": 10
     },
     {
       "bookThoughts": "Back when airplanes were new and exciting.",
@@ -320,11 +320,11 @@
       "dustJacket": true,
       "bookId": 12,
       "userId": 2,
-      "ableToLoan": true,
+      "ableToLoan": false,
       "ableToLoanDate": "2022-6-20",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663882272/s8s7zeuhewd2bspotqu5.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
@@ -355,15 +355,15 @@
       "bookId": 167,
       "userId": 3,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-19",
+      "ableToLoanDate": "2022-9-13",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "https://res.cloudinary.com/diyercxq0/image/upload/v1663872845/dygpj3ca8q9urbwvbqmt.jpg",
-      "borrowerName": "Brandy Brazen",
+      "bookImage": "",
+      "borrowerName": "",
       "approved": false,
       "approvedDate": "",
-      "returnedDate": "2022-9-19",
-      "prevBorrowerName": "Brandy Brazen",
+      "returnedDate": "2022-9-13",
+      "prevBorrowerName": "Matty Mason",
       "id": 14
     },
     {
@@ -371,11 +371,11 @@
       "dustJacket": true,
       "bookId": 37,
       "userId": 3,
-      "ableToLoan": false,
-      "ableToLoanDate": "2022-9-20",
+      "ableToLoan": true,
+      "ableToLoanDate": "2022-9-23",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663879795/ibjxzk4xwacacwptdjob.jpg",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663881536/whxywows7tj8xlsxor5s.jpg",
       "borrowerName": "",
       "approved": "",
       "approvedDate": "",
@@ -435,30 +435,29 @@
       "id": 18
     },
     {
-      "id": 19,
-      "userId": 4,
-      "bookId": 20,
       "bookThoughts": "Train Trip!",
       "dustJacket": false,
+      "bookId": 20,
+      "userId": 4,
       "ableToLoan": false,
-      "ableToLoanDate": "2022-6-30",
+      "ableToLoanDate": "2022-9-23",
       "isClaimed": false,
       "isClaimedDate": "",
-      "bookImage": "",
+      "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663882352/owji3yozzdkyiowidvpv.jpg",
       "borrowerName": "",
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
-      "prevBorrowerName": ""
+      "prevBorrowerName": "",
+      "id": 19
     },
     {
-      "id": 20,
-      "userId": 4,
-      "bookId": 73,
       "bookThoughts": "Read this in one sitting.",
       "dustJacket": true,
+      "bookId": 73,
+      "userId": 4,
       "ableToLoan": false,
-      "ableToLoanDate": "2022-7-19",
+      "ableToLoanDate": "2022-7-16",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
@@ -466,7 +465,8 @@
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
-      "prevBorrowerName": ""
+      "prevBorrowerName": "",
+      "id": 20
     },
     {
       "id": 21,
@@ -575,11 +575,11 @@
       "publicationDate": 1931
     },
     {
-      "id": 11,
-      "bookSeriesNameId": 1,
-      "bookName": "While the Clock Ticked",
+      "bookSeriesNameId": 3,
+      "bookName": "While the Clock Struck Nine",
       "bookAuthor": "Leslie McFarlane",
-      "publicationDate": 1932
+      "publicationDate": 1952,
+      "id": 11
     },
     {
       "id": 12,
@@ -3681,6 +3681,13 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
+    },
+    {
+      "bookSeriesNameId": 1,
+      "bookName": "While The Clock Ticked",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1932,
+      "id": 455
     }
   ]
 }
