@@ -29,8 +29,24 @@
       "email": "Brandy@Brazen.com",
       "membershipDate": "2022-8-30",
       "userAddress": "120 Cheeskogili Dr",
-      "isAdmin": true,
+      "isAdmin": false,
       "id": 4
+    },
+    {
+      "fullName": "Charlie Chucker",
+      "email": "Charlie@Chucker.com",
+      "membershipDate": "2022-9-26",
+      "userAddress": "450 Coyatee Dr",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "fullName": "test",
+      "email": "test@test.com",
+      "membershipDate": "2022-9-27",
+      "userAddress": "test",
+      "isAdmin": false,
+      "id": 6
     }
   ],
   "bookSeriesNames": [
@@ -151,15 +167,15 @@
       "bookId": 35,
       "userId": 1,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-22",
+      "ableToLoanDate": "2022-9-23",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663883157/bsasqoptqkexijeavyba.jpg",
-      "borrowerName": "",
+      "borrowerName": "Brandy Brazen",
       "approved": false,
       "approvedDate": "",
-      "returnedDate": "",
-      "prevBorrowerName": "",
+      "returnedDate": "2022-9-23",
+      "prevBorrowerName": "Brandy Brazen",
       "id": 2
     },
     {
@@ -355,15 +371,15 @@
       "bookId": 167,
       "userId": 3,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-13",
+      "ableToLoanDate": "2022-9-27",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
-      "borrowerName": "",
+      "borrowerName": "Brandy Brazen",
       "approved": false,
       "approvedDate": "",
-      "returnedDate": "2022-9-13",
-      "prevBorrowerName": "Matty Mason",
+      "returnedDate": "2022-9-27",
+      "prevBorrowerName": "Brandy Brazen",
       "id": 14
     },
     {
@@ -501,6 +517,40 @@
       "approvedDate": "",
       "returnedDate": "",
       "prevBorrowerName": ""
+    },
+    {
+      "bookThoughts": "test",
+      "dustJacket": false,
+      "userId": 3,
+      "ableToLoan": false,
+      "ableToLoanDate": "2022-9-27",
+      "isClaimed": false,
+      "isClaimedDate": "",
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
+      "bookId": 455,
+      "id": 23
+    },
+    {
+      "bookThoughts": "test",
+      "dustJacket": true,
+      "userId": 3,
+      "ableToLoan": false,
+      "ableToLoanDate": "2022-9-27",
+      "isClaimed": false,
+      "isClaimedDate": "",
+      "bookImage": "",
+      "borrowerName": "",
+      "approved": false,
+      "approvedDate": "",
+      "returnedDate": "",
+      "prevBorrowerName": "",
+      "bookId": 456,
+      "id": 24
     }
   ],
   "books": [
@@ -3681,13 +3731,6 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
-    },
-    {
-      "bookSeriesNameId": 1,
-      "bookName": "While The Clock Ticked",
-      "bookAuthor": "Leslie McFarlane",
-      "publicationDate": 1932,
-      "id": 455
     }
   ]
 }
