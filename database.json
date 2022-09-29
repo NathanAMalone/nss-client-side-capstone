@@ -1,12 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
       "fullName": "Lauren Longfellow",
       "email": "Lauren@Longfellow.com",
       "membershipDate": "2022-9-12",
       "userAddress": "100 Green St",
-      "isAdmin": false
+      "isAdmin": false,
+      "id": 1
     },
     {
       "id": 2,
