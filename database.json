@@ -29,16 +29,8 @@
       "email": "Brandy@Brazen.com",
       "membershipDate": "2022-8-30",
       "userAddress": "120 Cheeskogili Dr",
-      "isAdmin": false,
+      "isAdmin": true,
       "id": 4
-    },
-    {
-      "fullName": "Charlie Chucker",
-      "email": "Charlie@Chucker.com",
-      "membershipDate": "2022-9-26",
-      "userAddress": "450 Coyatee Dr",
-      "isAdmin": false,
-      "id": 5
     }
   ],
   "bookSeriesNames": [
@@ -159,25 +151,24 @@
       "bookId": 35,
       "userId": 1,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-23",
+      "ableToLoanDate": "2022-9-30",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663883157/bsasqoptqkexijeavyba.jpg",
-      "borrowerName": "Brandy Brazen",
+      "borrowerName": "",
       "approved": false,
       "approvedDate": "",
-      "returnedDate": "2022-9-23",
+      "returnedDate": "2022-9-30",
       "prevBorrowerName": "Brandy Brazen",
       "id": 2
     },
     {
-      "id": 3,
-      "userId": 1,
-      "bookId": 135,
       "bookThoughts": "My first Rick Brant; Quite fun adventure in D.C.",
       "dustJacket": true,
-      "ableToLoan": false,
-      "ableToLoanDate": "2022-7-21",
+      "bookId": 135,
+      "userId": 1,
+      "ableToLoan": true,
+      "ableToLoanDate": "2022-9-30",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
@@ -185,7 +176,8 @@
       "approved": false,
       "approvedDate": "",
       "returnedDate": "",
-      "prevBorrowerName": ""
+      "prevBorrowerName": "",
+      "id": 3
     },
     {
       "id": 4,
@@ -363,14 +355,14 @@
       "bookId": 167,
       "userId": 3,
       "ableToLoan": true,
-      "ableToLoanDate": "2022-9-28",
+      "ableToLoanDate": "2022-10-4",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "",
       "borrowerName": "Brandy Brazen",
       "approved": false,
       "approvedDate": "",
-      "returnedDate": "2022-9-27",
+      "returnedDate": "2022-10-4",
       "prevBorrowerName": "Brandy Brazen",
       "id": 14
     },
@@ -447,8 +439,8 @@
       "dustJacket": false,
       "bookId": 20,
       "userId": 4,
-      "ableToLoan": false,
-      "ableToLoanDate": "2022-9-23",
+      "ableToLoan": true,
+      "ableToLoanDate": "2022-10-4",
       "isClaimed": false,
       "isClaimedDate": "",
       "bookImage": "http://res.cloudinary.com/diyercxq0/image/upload/v1663882352/owji3yozzdkyiowidvpv.jpg",
@@ -3689,6 +3681,27 @@
       "bookName": "Trial By Fire",
       "bookAuthor": "James Lawrence",
       "publicationDate": 1969
+    },
+    {
+      "bookSeriesNameId": 2,
+      "bookName": "test",
+      "bookAuthor": "test",
+      "publicationDate": 1952,
+      "id": 455
+    },
+    {
+      "bookSeriesNameId": 3,
+      "bookName": "While The Clock Ticked",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1952,
+      "id": 456
+    },
+    {
+      "bookSeriesNameId": 3,
+      "bookName": "While the Clock ",
+      "bookAuthor": "Leslie McFarlane",
+      "publicationDate": 1932,
+      "id": 457
     }
   ]
 }
